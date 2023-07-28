@@ -3,12 +3,12 @@ SHELL := /bin/bash
 ifeq ($(OS),Windows_NT)
 	# Windows commands
 	SHELL = cmd
-	START_SERVER = "C:\cygwin64\bin\bash.exe" .\.ci\server.start.sh
-	PREPARE_SERVER = "C:\cygwin64\bin\bash.exe" .\.ci\server.prepare.sh
-	RUN_CYPRESS = "C:\cygwin64\bin\bash.exe" .\.ci\server.run_cypress.sh
-	STOP_SERVER = "C:\cygwin64\bin\bash.exe" .\.ci\server.stop.sh
-	START_DASHBOARD = "C:\cygwin64\bin\bash.exe" .\.ci\dashboard.start.sh
-	STOP_DASHBOARD = "C:\cygwin64\bin\bash.exe" .\.ci\dashboard.stop.sh
+	START_SERVER = bash .\.ci\server.start.sh
+	PREPARE_SERVER = bash .\.ci\server.prepare.sh
+	RUN_CYPRESS = bash .\.ci\server.run_cypress.sh
+	STOP_SERVER = bash .\.ci\server.stop.sh
+	START_DASHBOARD = bash .\.ci\dashboard.start.sh
+	STOP_DASHBOARD = bash .\.ci\dashboard.stop.sh
 	CLEAN_ENV_PLACEHOLDERS = git reset .ci\.env.{cypress,server,dashboard} && git checkout .ci\.env.{cypress,server,dashboard}
 else
 	# Linux commands
