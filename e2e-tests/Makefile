@@ -1,5 +1,27 @@
 SHELL := /bin/bash
 
+ifeq ($(OS),Windows_NT)
+	# Windows commands
+	SHELL = cmd
+	START_SERVER = .\.ci\server.start.bat
+	PREPARE_SERVER = .\.ci\server.prepare.bat
+	RUN_CYPRESS = .\.ci\server.run_cypress.bat
+	STOP_SERVER = .\.ci\server.stop.bat
+	START_DASHBOARD = .\.ci\dashboard.start.bat
+	STOP_DASHBOARD = .\.ci\dashboard.stop.bat
+	CLEAN_ENV_PLACEHOLDERS = git reset .ci\.env.{cypress,server,dashboard} && git checkout .ci\.env.{cypress,server,dashboard}
+else
+	# Linux commands
+	SHELL = /bin/bash
+	START_SERVER = ./.ci/server.start.sh
+	PREPARE_SERVER = ./.ci/server.prepare.sh
+	RUN_CYPRESS = ./.ci/server.run_cypress.sh
+	STOP_SERVER = ./.ci/server.stop.sh
+	START_DASHBOARD = ./.ci/dashboard.start.sh
+	STOP_DASHBOARD = ./.ci/dashboard.stop.sh
+	CLEAN_ENV_PLACEHOLDERS = git reset .ci/.env.{cypress,server,dashboard} && git checkout .ci/.env.{cypress,server,dashboard}
+endif
+
 .PHONY: all run stop
 all: run
 run: start-server prepare-server run-cypress
@@ -7,24 +29,29 @@ stop: stop-server stop-dashboard clean-env-placeholders
 
 .PHONY: start-server prepare-server run-cypress stop-server restart-server
 start-server:
-	./.ci/server.start.sh
+	$(START_SERVER)
+
 prepare-server:
-	./.ci/server.prepare.sh
+	$(PREPARE_SERVER)
+
 run-cypress:
-	./.ci/server.run_cypress.sh
+	$(RUN_CYPRESS)
+
 stop-server:
-	./.ci/server.stop.sh
+	$(STOP_SERVER)
+
 restart-server: stop-server start-server
 
 .PHONY: start-dashboard stop-dashboard
 start-dashboard:
-	./.ci/dashboard.start.sh
+	$(START_DASHBOARD)
+
 stop-dashboard:
-	./.ci/dashboard.stop.sh
+	$(STOP_DASHBOARD)
 
 .PHONY: print-env-placeholders clean-env-placeholders
 print-env-placeholders:
-	find .ci -maxdepth 1 -name '.env.*'  | xargs --verbose -l cat
+	find .ci -maxdepth 1 -name '.env.*' | xargs --verbose -l cat
+
 clean-env-placeholders:
-	git reset .ci/.env.{cypress,server,dashboard}
-	git checkout .ci/.env.{cypress,server,dashboard}
+	$(CLEAN_ENV_PLACEHOLDERS)
