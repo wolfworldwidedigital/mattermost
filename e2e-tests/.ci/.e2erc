@@ -1,7 +1,31 @@
 # Utility variables
 # NB: these assume you `source` them from the directory this file is in
-export MME2E_DC_SERVER="docker compose -p mmserver -f $(readlink -f ../../server/build/gitlab-dc.postgres.yml) -f $(readlink -f ./server.override.yml)"
-export MME2E_DC_DASHBOARD="docker compose -p mmdashboard -f $(readlink -f ./dashboard/docker/docker-compose.yml) -f $(readlink -f ./dashboard.override.yml)"
+convert_to_windows_path() {
+  awk '{gsub(/\//, "\\\\"); print}'
+}
+
+path_to_gitlab_dc_postgress="../../server/build/gitlab-dc.postgres.yml"
+path_to_server_override="./server.override.yml"
+path_to_docker_compose="./dashboard/docker/docker-compose.yml"
+path_to_dashboard_override="./dashboard.override.yml"
+
+# Check if the OS type is Windows (nt)
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then  
+  # Convert file paths to Windows-compatible format
+  path_to_gitlab_dc_postgress=$(echo "$path_to_gitlab_dc_postgress" | convert_to_windows_path)
+  path_to_server_override=$(echo "$path_to_server_override" | convert_to_windows_path)
+  path_to_docker_compose=$(echo "$path_to_docker_compose" | convert_to_windows_path)
+  path_to_dashboard_override=$(echo "$path_to_dashboard_override" | convert_to_windows_path)
+
+  export MME2E_DC_SERVER="docker compose -p mmserver -f $(readlink -f \"$path_to_gitlab_dc_postgress\") -f $(readlink -f \"$path_to_server_override\")"
+  export MME2E_DC_DASHBOARD="docker compose -p mmdashboard -f $(readlink -f "$path_to_docker_compose") -f $(readlink -f "$path_to_dashboard_override")"
+
+else
+  # Use the original file path on non-Windows systems
+  export MME2E_DC_SERVER="docker compose -p mmserver -f $(readlink -f "$path_to_gitlab_dc_postgress") -f $(readlink -f "$path_to_server_override")"
+  export MME2E_DC_DASHBOARD="docker compose -p mmdashboard -f $(readlink -f "$path_to_docker_compose") -f $(readlink -f "$path_to_dashboard_override")"
+fi
+
 export MME2E_UID=$(id -u)
 
 # Default the optional variables that are used in the docker-compose file
@@ -72,6 +96,13 @@ mme2e_legacy_setup () {
   docker network inspect ${COMPOSE_PROJECT_NAME} >/dev/null 2>&1 || docker network create ${COMPOSE_PROJECT_NAME}
 }
 
+mme2e_convert_to_win_path () {
+  # converts path to be compatible to windows
+  PATH="$@"
+  if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then  
+    $(echo "$PATH" | convert_to_windows_path)
+  fi
+}
 # Utility alias, for interactive shell usage. Can be reversed with 'unalias docker-compose' in your shell
 # NB: this won't work in the script
 alias docker-compose-mmserver="${MME2E_DC_SERVER}"
