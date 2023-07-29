@@ -12,10 +12,10 @@ path_to_dashboard_override="./dashboard.override.yml"
 # Check if the OS type is Windows
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then  
   # Convert file paths to Windows-compatible format
-  path_to_gitlab_dc_postgress=$(echo "$path_to_gitlab_dc_postgress" | convert_to_windows_path)
-  path_to_server_override=$(echo "$path_to_server_override" | convert_to_windows_path)
-  path_to_docker_compose=$(echo "$path_to_docker_compose" | convert_to_windows_path)
-  path_to_dashboard_override=$(echo "$path_to_dashboard_override" | convert_to_windows_path)
+  # path_to_gitlab_dc_postgress=$(echo "$path_to_gitlab_dc_postgress" | convert_to_windows_path)
+  # path_to_server_override=$(echo "$path_to_server_override" | convert_to_windows_path)
+  # path_to_docker_compose=$(echo "$path_to_docker_compose" | convert_to_windows_path)
+  # path_to_dashboard_override=$(echo "$path_to_dashboard_override" | convert_to_windows_path)
 
   export MME2E_DC_SERVER="docker-compose -p mmserver -f "$(wsl readlink -f "$path_to_gitlab_dc_postgress")" -f "$(wsl readlink -f "$path_to_server_override")""
   export MME2E_DC_DASHBOARD="docker-compose -p mmdashboard -f "$(wsl readlink -f "$path_to_docker_compose")" -f "$(wsl readlink -f "$path_to_dashboard_override")""
