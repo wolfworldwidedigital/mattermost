@@ -17,8 +17,8 @@ if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
   path_to_docker_compose=$(echo "$path_to_docker_compose" | convert_to_windows_path)
   path_to_dashboard_override=$(echo "$path_to_dashboard_override" | convert_to_windows_path)
 
-  export MME2E_DC_SERVER="docker compose -p mmserver -f $(readlink -f \"$path_to_gitlab_dc_postgress\") -f $(readlink -f \"$path_to_server_override\")"
-  export MME2E_DC_DASHBOARD="docker compose -p mmdashboard -f $(readlink -f "$path_to_docker_compose") -f $(readlink -f "$path_to_dashboard_override")"
+  export MME2E_DC_SERVER="wsl docker compose -p mmserver -f $(readlink -f \"$path_to_gitlab_dc_postgress\") -f $(readlink -f \"$path_to_server_override\")"
+  export MME2E_DC_DASHBOARD="wsl docker compose -p mmdashboard -f $(readlink -f "$path_to_docker_compose") -f $(readlink -f "$path_to_dashboard_override")"
 
 else
   # Use the original file path on non-Windows systems
