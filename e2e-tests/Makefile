@@ -2,7 +2,6 @@ SHELL := /bin/bash
 
 ifeq ($(OS),Windows_NT)
 	# Windows commands
-	SHELL = cmd
 	START_SERVER = bash .\.ci\server.start.sh
 	PREPARE_SERVER = bash .\.ci\server.prepare.sh
 	RUN_CYPRESS = bash .\.ci\server.run_cypress.sh
