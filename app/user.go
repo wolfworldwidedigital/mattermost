@@ -2287,6 +2287,9 @@ func (a *App) PromoteGuestToUser(c *request.Context, user *model.User, requestor
 	} else {
 		a.sendUpdatedUserEvent(*promotedUser)
 		if uErr := a.ch.srv.platform.UpdateSessionsIsGuest(promotedUser.Id, promotedUser.IsGuest()); uErr != nil {
+=======
+		if uErr := a.ch.srv.platform.UpdateSessionsIsGuest(c, promotedUser, promotedUser.IsGuest()); uErr != nil {
+>>>>>>> 818a48190e (MM-54774 - update session roles when promote/demote guests (#25156)):server/channels/app/user.go
 			c.Logger().Warn("Unable to update user sessions", mlog.String("user_id", promotedUser.Id), mlog.Err(uErr))
 		}
 	}
@@ -2331,7 +2334,7 @@ func (a *App) DemoteUserToGuest(c request.CTX, user *model.User) *model.AppError
 	}
 
 	a.sendUpdatedUserEvent(*demotedUser)
-	if uErr := a.ch.srv.platform.UpdateSessionsIsGuest(demotedUser.Id, demotedUser.IsGuest()); uErr != nil {
+	if uErr := a.ch.srv.platform.UpdateSessionsIsGuest(demotedUser, demotedUser.IsGuest()); uErr != nil {
 		c.Logger().Warn("Unable to update user sessions", mlog.String("user_id", demotedUser.Id), mlog.Err(uErr))
 	}
 
