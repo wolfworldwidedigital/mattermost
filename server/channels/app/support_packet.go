@@ -124,7 +124,10 @@ func (a *App) generateSupportPacketYaml(c request.CTX) (*model.FileData, error) 
 
 	var vendorName, vendorVersion string
 	if ldapInterface := a.Ldap(); ldapInterface != nil {
-		vendorName, vendorVersion = ldapInterface.GetVendorNameAndVendorVersion(c)
+		vendorName, vendorVersion, err = ldapInterface.GetVendorNameAndVendorVersion(c)
+		if err != nil {
+			rErr = multierror.Append(errors.Wrap(err, "error while LDAP vendor information"))
+		}
 	}
 
 	/* Elastic Search */
