@@ -14,7 +14,7 @@ export function isSystemEmoji(emoji: Emoji): emoji is SystemEmoji {
 }
 
 export function getEmojiImageUrl(emoji: Emoji): string {
-    // If its the mattermost custom emoji
+    // If its the Cusmato custom emoji
     if (!isSystemEmoji(emoji) && emoji.id === 'mattermost') {
         return Client4.getSystemEmojiImageUrl('mattermost');
     }

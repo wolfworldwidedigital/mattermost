@@ -93,7 +93,7 @@
     "cypress:run:firefox": "cross-env TZ=Etc/UTC cypress run --browser firefox",
     "cypress:run:edge": "cross-env TZ=Etc/UTC cypress run --browser edge",
     "cypress:run:electron": "cross-env TZ=Etc/UTC cypress run --browser electron",
-    "benchmarks:run-server": "cd mattermost && bin/mattermost",
+    "benchmarks:run-server": "cd Cusmato && bin/mattermost",
     "start:webhook": "node webhook_serve.js",
     "pretest": "npm run clean",
     "test": "cross-env TZ=Etc/UTC cypress run",

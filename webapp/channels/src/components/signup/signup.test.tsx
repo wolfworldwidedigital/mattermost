@@ -301,7 +301,7 @@ describe('components/signup/Signup', () => {
         const checkInput = screen.getByTestId('signup-body-card-form-check-newsletter');
         expect(checkInput).toHaveAttribute('type', 'checkbox');
 
-        expect(signupContainer).toHaveTextContent('I would like to receive Mattermost security updates via newsletter. By subscribing, I consent to receive emails from Mattermost with product updates, promotions, and company news. I have read the Privacy Policy and understand that I can unsubscribe at any time');
+        expect(signupContainer).toHaveTextContent('I would like to receive Cusmato security updates via newsletter. By subscribing, I consent to receive emails from Cusmato with product updates, promotions, and company news. I have read the Privacy Policy and understand that I can unsubscribe at any time');
     });
 
     it('should NOT show newsletter check box opt-in for self-hosted AND airgapped workspaces', async () => {
@@ -313,7 +313,7 @@ describe('components/signup/Signup', () => {
         );
 
         expect(() => screen.getByTestId('signup-body-card-form-check-newsletter')).toThrow();
-        expect(signupContainer).toHaveTextContent('Interested in receiving Mattermost security, product, promotions, and company updates updates via newsletter?Sign up at https://mattermost.com/security-updates/.');
+        expect(signupContainer).toHaveTextContent('Interested in receiving Cusmato security, product, promotions, and company updates updates via newsletter?Sign up at https://mattermost.com/security-updates/.');
     });
 
     it('should show newsletter related opt-in or text for cloud', async () => {
@@ -328,6 +328,6 @@ describe('components/signup/Signup', () => {
         const checkInput = screen.getByTestId('signup-body-card-form-check-newsletter');
         expect(checkInput).toHaveAttribute('type', 'checkbox');
 
-        expect(signupContainer).toHaveTextContent('I would like to receive Mattermost security updates via newsletter. By subscribing, I consent to receive emails from Mattermost with product updates, promotions, and company news. I have read the Privacy Policy and understand that I can unsubscribe at any time');
+        expect(signupContainer).toHaveTextContent('I would like to receive Cusmato security updates via newsletter. By subscribing, I consent to receive emails from Cusmato with product updates, promotions, and company news. I have read the Privacy Policy and understand that I can unsubscribe at any time');
     });
 });

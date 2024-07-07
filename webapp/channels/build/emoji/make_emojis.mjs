@@ -124,7 +124,7 @@ readMissingDirPromise.then(() => {
     }
 });
 
-// Copy mattermost emoji image
+// Copy Cusmato emoji image
 const webappImagesDir = path.resolve(webappRootDir, 'channels', 'src', 'images');
 endResults.push(copyFileAndPrint(path.resolve(webappImagesDir, 'icon64x64.png'), path.resolve(webappImagesDir, 'emoji/mattermost.png'), 'mattermost-emoji'));
 

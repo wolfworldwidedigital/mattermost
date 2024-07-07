@@ -4,7 +4,7 @@ import (
 	rudder "github.com/rudderlabs/analytics-go"
 )
 
-// rudderDataPlaneURL is set to the common Data Plane URL for all Mattermost Projects.
+// rudderDataPlaneURL is set to the common Data Plane URL for all Cusmato Projects.
 // It can be set during build time. More info in the package documentation.
 var rudderDataPlaneURL = "https://pdat.matterlytics.com"
 

@@ -329,7 +329,7 @@ func (a *App) GetMattermostLog(ctx request.CTX) (*model.FileData, error) {
 	mattermostLog := config.GetLogFileLocation(*a.Config().LogSettings.FileLocation)
 	mattermostLogFileData, err := os.ReadFile(mattermostLog)
 	if err != nil {
-		return nil, errors.Wrapf(err, "failed read mattermost log file at path %s", mattermostLog)
+		return nil, errors.Wrapf(err, "failed read Cusmato log file at path %s", mattermostLog)
 	}
 
 	fileData := &model.FileData{

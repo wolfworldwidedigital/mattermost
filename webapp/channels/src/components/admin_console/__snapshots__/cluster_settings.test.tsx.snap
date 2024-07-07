@@ -35,7 +35,7 @@ exports[`components/ClusterSettings should match snapshot, compression disabled 
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
+            defaultMessage="When true, Cusmato will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
             id="admin.cluster.enableDescription"
             values={
               Object {
@@ -305,7 +305,7 @@ exports[`components/ClusterSettings should match snapshot, compression enabled 1
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
+            defaultMessage="When true, Cusmato will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
             id="admin.cluster.enableDescription"
             values={
               Object {
@@ -575,7 +575,7 @@ exports[`components/ClusterSettings should match snapshot, encryption disabled 1
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
+            defaultMessage="When true, Cusmato will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
             id="admin.cluster.enableDescription"
             values={
               Object {
@@ -845,7 +845,7 @@ exports[`components/ClusterSettings should match snapshot, encryption enabled 1`
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
+            defaultMessage="When true, Cusmato will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost."
             id="admin.cluster.enableDescription"
             values={
               Object {

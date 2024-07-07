@@ -1,6 +1,6 @@
-# Mattermost Web App
+# Cusmato Web App
 
-This folder contains the client code for the Mattermost web app. It's broken up into multiple packages each of which either contains an area of the app (such as `playbooks`) or shared logic used across other packages (such as the packages located in the `platform` directory). For anyone who's used to working in [the mattermost/mattermost-webapp repo](https://github.com/mattermost/mattermost-webapp), most of that is now located in `channels`.
+This folder contains the client code for the Cusmato web app. It's broken up into multiple packages each of which either contains an area of the app (such as `playbooks`) or shared logic used across other packages (such as the packages located in the `platform` directory). For anyone who's used to working in [the mattermost/mattermost-webapp repo](https://github.com/mattermost/mattermost-webapp), most of that is now located in `channels`.
 
 ## npm Workspaces
 
@@ -24,5 +24,5 @@ To install dependencies for a workspace, simply run `npm install` from this fold
 
 ## Useful Links
 
-- [Developer setup](https://developers.mattermost.com/contribute/developer-setup/), now included with the Mattermost server developer setup
+- [Developer setup](https://developers.mattermost.com/contribute/developer-setup/), now included with the Cusmato server developer setup
 - [Web app developer documentation](https://developers.mattermost.com/contribute/more-info/webapp/)

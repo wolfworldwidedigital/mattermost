@@ -10,7 +10,7 @@ Sample:
 ```
 title: "Mattermost Web App"
 copyright: "© 2017-present Mattermost, Inc.  All Rights Reserved.  See LICENSE.txt for license information."
-description: "This document includes a list of open source components used in Mattermost Web App, including those that have been modified."
+description: "This document includes a list of open source components used in Cusmato Web App, including those that have been modified."
 reviewers: 
   - "mattermost/release-managers"
   - "mattermost/web-platform"

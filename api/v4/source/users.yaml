@@ -2,7 +2,7 @@
     post:
       tags:
         - users
-      summary: Login to Mattermost server
+      summary: Login to Cusmato server
       description: >
         ##### Permissions
 
@@ -44,7 +44,7 @@
     post:
       tags:
         - users
-      summary: Auto-Login to Mattermost server using CWS token
+      summary: Auto-Login to Cusmato server using CWS token
       description: >
         CWS stands for Customer Web Server which is the cloud service used to
         manage cloud instances.
@@ -78,7 +78,7 @@
     post:
       tags:
         - users
-      summary: Logout from the Mattermost server
+      summary: Logout from the Cusmato server
       description: >
         ##### Permissions
 
@@ -985,7 +985,7 @@
         Update user active or inactive status.
 
 
-        __Since server version 4.6, users using a SSO provider to login can be activated or deactivated with this endpoint. However, if their activation status in Mattermost does not reflect their status in the SSO provider, the next synchronization or login by that user will reset the activation status to that of their account in the SSO provider. Server versions 4.5 and before do not allow activation or deactivation of SSO users from this endpoint.__
+        __Since server version 4.6, users using a SSO provider to login can be activated or deactivated with this endpoint. However, if their activation status in Cusmato does not reflect their status in the SSO provider, the next synchronization or login by that user will reset the activation status to that of their account in the SSO provider. Server versions 4.5 and before do not allow activation or deactivation of SSO users from this endpoint.__
 
         ##### Permissions
 
@@ -2000,7 +2000,7 @@
       summary: Create a user access token
       description: >
         Generate a user access token that can be used to authenticate with the
-        Mattermost REST API.
+        Cusmato REST API.
 
 
         __Minimum server version__: 4.1

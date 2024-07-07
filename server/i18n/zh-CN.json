@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "看来你的 Mattermost 邮箱设置成功了！"
+    "translation": "看来你的 Cusmato 邮箱设置成功了！"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -619,7 +619,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "显示 Mattermost 帮助信息"
+    "translation": "显示 Cusmato 帮助信息"
   },
   {
     "id": "api.command_help.name",
@@ -1523,11 +1523,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack 用户已和拥有邮箱地址 {{.Email}} 和用户名 {{.Username}} 的 Mattermost 用户合并。\r\n"
+    "translation": "Slack 用户已和拥有邮箱地址 {{.Email}} 和用户名 {{.Username}} 的 Cusmato 用户合并。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack 用户已和现有邮箱地址 {{.Email}} 和用户名 {{.Username}} 的 Mattermost 用户合并，但没法添加用户到他们的团队。\r\n"
+    "translation": "Slack 用户已和现有邮箱地址 {{.Email}} 和用户名 {{.Username}} 的 Cusmato 用户合并，但没法添加用户到他们的团队。\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1847,7 +1847,7 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "在 Mattermost 中回复"
+    "translation": "在 Cusmato 中回复"
   },
   {
     "id": "api.templates.reset_body.button",
@@ -1907,7 +1907,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "该电子邮件地址被用于创建 Mattermost 帐户。"
+    "translation": "该电子邮件地址被用于创建 Cusmato 帐户。"
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1927,7 +1927,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "该电子邮件地址被用于创建 Mattermost 帐户。"
+    "translation": "该电子邮件地址被用于创建 Cusmato 帐户。"
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3191,7 +3191,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "您的 AD/LDAP 账号没有使用此 Mattermost 服务器的权限。请向您的系统管理员询问确认 AD/LDAP 用户过滤器。"
+    "translation": "您的 AD/LDAP 账号没有使用此 Cusmato 服务器的权限。请向您的系统管理员询问确认 AD/LDAP 用户过滤器。"
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3211,7 +3211,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "从 AD/LDAP 搜索用户失败。请测试 Mattermost 服务器是否可以连接您的 AD/LDAP 服务器后重新尝试。"
+    "translation": "从 AD/LDAP 搜索用户失败。请测试 Cusmato 服务器是否可以连接您的 AD/LDAP 服务器后重新尝试。"
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3307,7 +3307,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "用户名已被其他 Mattermost 用户使用。"
+    "translation": "用户名已被其他 Cusmato 用户使用。"
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -5763,7 +5763,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "您的浏览器不再被 Mattermost 支持"
+    "translation": "您的浏览器不再被 Cusmato 支持"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
@@ -5811,7 +5811,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "下载 Mattermost 应用或使用支持的浏览器以获得更好的体验。"
+    "translation": "下载 Cusmato 应用或使用支持的浏览器以获得更好的体验。"
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -6107,7 +6107,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "您在请求许可证前必须接受 Mattermost Software Evaluation Agreement 以及隐私政策。"
+    "translation": "您在请求许可证前必须接受 Cusmato Software Evaluation Agreement 以及隐私政策。"
   },
   {
     "id": "api.invalid_channel",
@@ -6855,11 +6855,11 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "您不能升级因为您已正在运行 Mattermost 企业版。"
+    "translation": "您不能升级因为您已正在运行 Cusmato 企业版。"
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "您已升级至 Mattermost 企业版。请重启以完成升级。"
+    "translation": "您已升级至 Cusmato 企业版。请重启以完成升级。"
   },
   {
     "id": "api.team.add_team_member.invalid_body.app_error",
@@ -7715,7 +7715,7 @@
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "开始在 Mattermost 与您的团队合作"
+    "translation": "开始在 Cusmato 与您的团队合作"
   },
   {
     "id": "api.templates.email_footer_v2",
@@ -7751,7 +7751,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "下载 Mattermost 应用"
+    "translation": "下载 Cusmato 应用"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
@@ -7899,7 +7899,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "将以下 AES 256-bit 加密的邀请与密码一起发送给外部 Mattermost 管理员。他们将使用 `{{.Command}}` 斜杠命令来接受邀请。\n\n```\n{{.Invitation}}\n```\n\n**确保远程站点可以通过 {{.SiteURL}} 访问您的 Mattermost 实例**"
+    "translation": "将以下 AES 256-bit 加密的邀请与密码一起发送给外部 Cusmato 管理员。他们将使用 `{{.Command}}` 斜杠命令来接受邀请。\n\n```\n{{.Invitation}}\n```\n\n**确保远程站点可以通过 {{.SiteURL}} 访问您的 Cusmato 实例**"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -7947,11 +7947,11 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "邀请安全连接以在 Mattermost 实例之间进行通信。"
+    "translation": "邀请安全连接以在 Cusmato 实例之间进行通信。"
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "接受来自外部 Mattermost 的邀请"
+    "translation": "接受来自外部 Cusmato 的邀请"
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -8043,7 +8043,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "邀请外部 Mattermost 实例加入当前共享频道"
+    "translation": "邀请外部 Cusmato 实例加入当前共享频道"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -8063,7 +8063,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "与外部 Mattermost 实例共享当前频道。"
+    "translation": "与外部 Cusmato 实例共享当前频道。"
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -8135,7 +8135,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "无法应用新的试用授权。您已经给这个 Mattermost 实例应用过试用授权了。如果您想延长试用期，请[联系我们的销售团队](https://mattermost.com/contact-us/)。"
+    "translation": "无法应用新的试用授权。您已经给这个 Cusmato 实例应用过试用授权了。如果您想延长试用期，请[联系我们的销售团队](https://mattermost.com/contact-us/)。"
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -8375,11 +8375,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "您的 Mattermost 订阅即将需要续订"
+    "translation": "您的 Cusmato 订阅即将需要续订"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}，您的订阅将在 {{.Days}} 天后到期。我们希望您体验到 Mattermost 支持的灵活、安全的团队协作。尽快续订以确保您的团队可以继续享受这些好处。"
+    "translation": "{{.UserName}}，您的订阅将在 {{.Days}} 天后到期。我们希望您体验到 Cusmato 支持的灵活、安全的团队协作。尽快续订以确保您的团队可以继续享受这些好处。"
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -8991,7 +8991,7 @@
   },
   {
     "id": "api.server.cws.needs_enterprise_edition",
-    "translation": "该服务仅在 Mattermost Enterprise 版本中可用"
+    "translation": "该服务仅在 Cusmato Enterprise 版本中可用"
   },
   {
     "id": "app.oauth.remove_auth_data_by_client_id.app_error",
@@ -9755,7 +9755,7 @@
   },
   {
     "id": "api.server.cws.disabled",
-    "translation": "与 Mattermost 客户门户的交互已被系统管理员禁用。"
+    "translation": "与 Cusmato 客户门户的交互已被系统管理员禁用。"
   },
   {
     "id": "api.command_share.invite_remote_to_channel.error",
@@ -9879,7 +9879,7 @@
   },
   {
     "id": "api.config.update.elasticsearch.autocomplete_cannot_be_enabled_error",
-    "translation": "频道自动补全无法启用，因为频道索引表已过期。推荐您重新生成频道索引。查看 Mattermost 更新日志以了解更多信息"
+    "translation": "频道自动补全无法启用，因为频道索引表已过期。推荐您重新生成频道索引。查看 Cusmato 更新日志以了解更多信息"
   },
   {
     "id": "app.channel.bookmark.update.app_error",
@@ -9891,7 +9891,7 @@
   },
   {
     "id": "app.channel.elasticsearch_channel_index.notify_admin.message",
-    "translation": "您的 Elasticsearch 频道索引表已过期。推荐您重新生成频道索引。\n在[系统控制台中的 Elasticsearch 部分]({{.ElasticsearchSection}})点击`重建频道索引`以解决问题。\n查看 Mattermost 更新日志以了解更多信息。"
+    "translation": "您的 Elasticsearch 频道索引表已过期。推荐您重新生成频道索引。\n在[系统控制台中的 Elasticsearch 部分]({{.ElasticsearchSection}})点击`重建频道索引`以解决问题。\n查看 Cusmato 更新日志以了解更多信息。"
   },
   {
     "id": "ent.elasticsearch.purge_index.delete_failed",

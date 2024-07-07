@@ -91,7 +91,7 @@ build: setup-go-work build-client build-linux build-windows build-osx
 build-cmd: setup-go-work build-client build-cmd-linux build-cmd-windows build-cmd-osx
 
 build-client:
-	@echo Building mattermost web app
+	@echo Building Cusmato web app
 
 	cd $(BUILD_WEBAPP_DIR) && $(MAKE) dist
 
@@ -139,7 +139,7 @@ endif
 	fi
 
 fetch-prepackaged-plugins:
-	@# Import Mattermost plugin public key
+	@# Import Cusmato plugin public key
 	gpg --import build/plugin-production-public-key.gpg
 	@# Download prepackaged plugins
 	mkdir -p tmpprepackaged
@@ -181,14 +181,14 @@ package-plugins: fetch-prepackaged-plugins
 package-osx-amd64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_OSX_AMD64) CURRENT_PACKAGE_ARCH=darwin_amd64 MM_BIN_NAME=mattermost MMCTL_BIN_NAME=mmctl $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_OSX_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-darwin-amd64.tar.gz mattermost ../mattermost
+	tar -C $(DIST_PATH_OSX_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-darwin-amd64.tar.gz Cusmato ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/darwin_amd64
 
 package-osx-arm64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_OSX_ARM64) CURRENT_PACKAGE_ARCH=darwin_arm64 MM_BIN_NAME=mattermost MMCTL_BIN_NAME=mmctl $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_OSX_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-darwin-arm64.tar.gz mattermost ../mattermost
+	tar -C $(DIST_PATH_OSX_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-darwin-arm64.tar.gz Cusmato ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/darwin_arm64
 
@@ -198,14 +198,14 @@ package-linux-amd64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_LIN_AMD64) PLUGIN_ARCH=linux-amd64 $(MAKE) package-plugins
 	DIST_PATH_GENERIC=$(DIST_PATH_LIN_AMD64) CURRENT_PACKAGE_ARCH=linux_amd64 MM_BIN_NAME=mattermost MMCTL_BIN_NAME=mmctl $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_LIN_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-amd64.tar.gz mattermost ../mattermost
+	tar -C $(DIST_PATH_LIN_AMD64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-amd64.tar.gz Cusmato ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/linux_amd64
 
 package-linux-arm64: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_LIN_ARM64) CURRENT_PACKAGE_ARCH=linux_arm64 MM_BIN_NAME=mattermost MMCTL_BIN_NAME=mmctl $(MAKE) package-general
 	@# Package
-	tar -C $(DIST_PATH_LIN_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-arm64.tar.gz mattermost ../mattermost
+	tar -C $(DIST_PATH_LIN_ARM64)/.. -czf $(DIST_PATH)-$(BUILD_TYPE_NAME)-linux-arm64.tar.gz Cusmato ../mattermost
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/linux_arm64
 
@@ -214,7 +214,7 @@ package-linux: package-linux-amd64 package-linux-arm64
 package-windows: package-prep
 	DIST_PATH_GENERIC=$(DIST_PATH_WIN) CURRENT_PACKAGE_ARCH=windows_amd64 MM_BIN_NAME=mattermost.exe MMCTL_BIN_NAME=mmctl.exe $(MAKE) package-general
 	@# Package
-	cd $(DIST_PATH_WIN)/.. && zip -9 -r -q -l ../mattermost-$(BUILD_TYPE_NAME)-windows-amd64.zip mattermost ../mattermost && cd ../..
+	cd $(DIST_PATH_WIN)/.. && zip -9 -r -q -l ../mattermost-$(BUILD_TYPE_NAME)-windows-amd64.zip Cusmato ../mattermost && cd ../..
 	@# Cleanup
 	rm -rf $(DIST_ROOT)/windows
 

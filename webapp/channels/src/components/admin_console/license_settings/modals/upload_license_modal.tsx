@@ -124,7 +124,7 @@ const UploadLicenseModal = (props: Props): JSX.Element | null => {
                 <div className='subtitle'>
                     <FormattedMessage
                         id='admin.license.upload-modal.subtitle'
-                        defaultMessage='Upload a license key for Mattermost Enterprise Edition to upgrade this server. '
+                        defaultMessage='Upload a license key for Cusmato Enterprise Edition to upgrade this server. '
                     />
                 </div>
                 <div className='file-upload'>

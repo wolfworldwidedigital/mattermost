@@ -753,7 +753,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Uporabniško ime že uporablja drug Mattermost uporabnik."
+    "translation": "Uporabniško ime že uporablja drug Cusmato uporabnik."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -853,7 +853,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Iskanje uporabnikov v AD / LDAP ni uspelo. Preverite, ali se strežnik Mattermost lahko poveže z vašim strežnikom AD / LDAP in poskusite znova."
+    "translation": "Iskanje uporabnikov v AD / LDAP ni uspelo. Preverite, ali se strežnik Cusmato lahko poveže z vašim strežnikom AD / LDAP in poskusite znova."
   },
   {
     "id": "ent.ldap.syncronize.get_all_groups.app_error",
@@ -2757,11 +2757,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack uporabnik je združen z obstoječim Mattermost uporabnikom z ujemajočo e-pošto {{.Email}} in uporabniškim imenom {{.Username}}, vendar ni bilo možno dodati uporabnika v njegovo ekipo.\r\n"
+    "translation": "Slack uporabnik je združen z obstoječim Cusmato uporabnikom z ujemajočo e-pošto {{.Email}} in uporabniškim imenom {{.Username}}, vendar ni bilo možno dodati uporabnika v njegovo ekipo.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack uporabnik je združen z obstoječim Mattermost uporabnikom z ujemajočo e-pošto {{.Email}} in uporabniškim imenom {{.Username}}.\r\n"
+    "translation": "Slack uporabnik je združen z obstoječim Cusmato uporabnikom z ujemajočo e-pošto {{.Email}} in uporabniškim imenom {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -2773,7 +2773,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack kanal {{.DisplayName}} že obstaja kot aktiven Mattermost kanal. Oba kanala sta sedaj združena.\r\n"
+    "translation": "Slack kanal {{.DisplayName}} že obstaja kot aktiven Cusmato kanal. Oba kanala sta sedaj združena.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -3940,7 +3940,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Odpri Mattermost pomoč"
+    "translation": "Odpri Cusmato pomoč"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -4217,7 +4217,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Pošlji vabilo tvoji Mattermost ekipi"
+    "translation": "Pošlji vabilo tvoji Cusmato ekipi"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -4517,7 +4517,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Prosim dodajte me ekipam in kanalom, v katerih želite da sodelujem. Če želite to narediti, uporabite brskalnik ali Mattermost Desktop App."
+    "translation": "Prosim dodajte me ekipam in kanalom, v katerih želite da sodelujem. Če želite to narediti, uporabite brskalnik ali Cusmato Desktop App."
   },
   {
     "id": "api.bot.create_disabled",

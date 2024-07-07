@@ -80,26 +80,26 @@ type API interface {
 	// Minimum server version: 5.10
 	GetBundlePath() (string, error)
 
-	// GetLicense returns the current license used by the Mattermost server. Returns nil if
+	// GetLicense returns the current license used by the Cusmato server. Returns nil if
 	// the server does not have a license.
 	//
 	// @tag Server
 	// Minimum server version: 5.10
 	GetLicense() *model.License
 
-	// IsEnterpriseReady returns true if the Mattermost server is configured as Enterprise Ready.
+	// IsEnterpriseReady returns true if the Cusmato server is configured as Enterprise Ready.
 	//
 	// @tag Server
 	// Minimum server version: 5.10
 	IsEnterpriseReady() bool
 
-	// GetServerVersion return the current Mattermost server version
+	// GetServerVersion return the current Cusmato server version
 	//
 	// @tag Server
 	// Minimum server version: 5.4
 	GetServerVersion() string
 
-	// GetSystemInstallDate returns the time that Mattermost was first installed and ran.
+	// GetSystemInstallDate returns the time that Cusmato was first installed and ran.
 	//
 	// @tag Server
 	// Minimum server version: 5.10
@@ -995,7 +995,7 @@ type API interface {
 	// Minimum server version: 6.3
 	RolesGrantPermission(roleNames []string, permissionId string) bool
 
-	// LogDebug writes a log message to the Mattermost server log file.
+	// LogDebug writes a log message to the Cusmato server log file.
 	// Appropriate context such as the plugin name will already be added as fields so plugins
 	// do not need to add that info.
 	//
@@ -1003,7 +1003,7 @@ type API interface {
 	// Minimum server version: 5.2
 	LogDebug(msg string, keyValuePairs ...any)
 
-	// LogInfo writes a log message to the Mattermost server log file.
+	// LogInfo writes a log message to the Cusmato server log file.
 	// Appropriate context such as the plugin name will already be added as fields so plugins
 	// do not need to add that info.
 	//
@@ -1011,7 +1011,7 @@ type API interface {
 	// Minimum server version: 5.2
 	LogInfo(msg string, keyValuePairs ...any)
 
-	// LogError writes a log message to the Mattermost server log file.
+	// LogError writes a log message to the Cusmato server log file.
 	// Appropriate context such as the plugin name will already be added as fields so plugins
 	// do not need to add that info.
 	//
@@ -1019,7 +1019,7 @@ type API interface {
 	// Minimum server version: 5.2
 	LogError(msg string, keyValuePairs ...any)
 
-	// LogWarn writes a log message to the Mattermost server log file.
+	// LogWarn writes a log message to the Cusmato server log file.
 	// Appropriate context such as the plugin name will already be added as fields so plugins
 	// do not need to add that info.
 	//

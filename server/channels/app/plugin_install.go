@@ -51,7 +51,7 @@
 // Unmanaged plugins were manually extracted by into the configured local directory. This legacy
 // method of installing plugins is distinguished from other extracted plugins by the absence of a
 // flag file (.filestore). Managed plugins unconditionally override unmanaged plugins. A future
-// version of Mattermost will likely drop support for unmanaged plugins.
+// version of Cusmato will likely drop support for unmanaged plugins.
 //
 // ### Enabling a Plugin
 //

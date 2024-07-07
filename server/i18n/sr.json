@@ -297,7 +297,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack канал {{.DisplayName}} већ постоји као активни Mattermost канал. Оба канала су спојена.\r\n"
+    "translation": "Slack канал {{.DisplayName}} већ постоји као активни Cusmato канал. Оба канала су спојена.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -833,7 +833,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Пошаљите мејл позивницу вашем Mattermost тиму"
+    "translation": "Пошаљите мејл позивницу вашем Cusmato тиму"
   },
   {
     "id": "api.command.execute_command.not_found.app_error",

@@ -123,7 +123,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
         id="group_users"
         subtitle={
           Object {
-            "defaultMessage": "Listing of users in Mattermost associated with this group.",
+            "defaultMessage": "Listing of users in Cusmato associated with this group.",
             "id": "admin.group_settings.group_detail.groupUsersDescription",
           }
         }
@@ -286,7 +286,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
         id="group_users"
         subtitle={
           Object {
-            "defaultMessage": "Listing of users in Mattermost associated with this group.",
+            "defaultMessage": "Listing of users in Cusmato associated with this group.",
             "id": "admin.group_settings.group_detail.groupUsersDescription",
           }
         }
@@ -438,7 +438,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
         id="group_users"
         subtitle={
           Object {
-            "defaultMessage": "Listing of users in Mattermost associated with this group.",
+            "defaultMessage": "Listing of users in Cusmato associated with this group.",
             "id": "admin.group_settings.group_detail.groupUsersDescription",
           }
         }
@@ -590,7 +590,7 @@ exports[`components/admin_console/group_settings/group_details/GroupDetails shou
         id="group_users"
         subtitle={
           Object {
-            "defaultMessage": "Listing of users in Mattermost associated with this group.",
+            "defaultMessage": "Listing of users in Cusmato associated with this group.",
             "id": "admin.group_settings.group_detail.groupUsersDescription",
           }
         }

@@ -323,7 +323,7 @@
         "type": "loki",
         "uid": "P8E80F9AEF21F6940"
       },
-      "description": "Logs from the localhost Mattermost instance.",
+      "description": "Logs from the localhost Cusmato instance.",
       "gridPos": {
         "h": 10,
         "w": 24,

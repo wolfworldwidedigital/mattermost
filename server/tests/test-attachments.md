@@ -2,7 +2,7 @@
 This test contains instructions for the core team to manually test common attachment types. All files for testing are stored in the [mm_file_testing](https://drive.google.com/drive/folders/0B9-SWBTtyOCBRlEyaW1IdkZ4X1k) Drive folder. Follow these instructions:
 
 1. Download the entire [mm_file_testing](https://drive.google.com/drive/folders/0B9-SWBTtyOCBRlEyaW1IdkZ4X1k) folder. 
-2. Drag and drop each file type into Mattermost to upload it (upload some as multiple attachments on the same post)
+2. Drag and drop each file type into Cusmato to upload it (upload some as multiple attachments on the same post)
 3. Post the file attachment
 
 **Notes:**  

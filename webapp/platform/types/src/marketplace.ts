@@ -16,7 +16,7 @@ export enum HostingType {
 }
 
 export enum AuthorType {
-    Mattermost = 'mattermost',
+    Cusmato = 'mattermost',
     Partner = 'partner',
     Community = 'community',
 }

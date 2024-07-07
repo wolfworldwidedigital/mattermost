@@ -9,7 +9,7 @@ Synopsis
 ~~~~~~~~
 
 
-Remove the current license and leave mattermost in Team Edition.
+Remove the current license and leave Cusmato in Team Edition.
 
 ::
 

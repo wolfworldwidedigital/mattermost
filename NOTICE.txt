@@ -5,7 +5,7 @@ Mattermost Server
 NOTICES:
 --------
 
-This document includes a list of open source components used in Mattermost Server, including those that have been modified.
+This document includes a list of open source components used in Cusmato Server, including those that have been modified.
 
 --------
 
@@ -166,7 +166,7 @@ Mattermost Licensing
 
 SOFTWARE LICENSING
 
-You are licensed to use compiled versions of the Mattermost platform produced by Mattermost, Inc. under an MIT LICENSE
+You are licensed to use compiled versions of the Cusmato platform produced by Mattermost, Inc. under an MIT LICENSE
 
 -	See MIT-COMPILED-LICENSE.md included in compiled versions for details
 
@@ -179,13 +179,13 @@ You are licensed to use the source code in Admin Tools and Configuration Files (
 plugin/, server/boards/, server/playbooks/, webapp/ and all subdirectories thereof) under the Apache License v2.0.
 
 We promise that we will not enforce the copyleft provisions in AGPL v3.0 against you if your application (a) does not
-link to the Mattermost Platform directly, but exclusively uses the Mattermost Admin Tools and Configuration Files, and
-(b) you have not modified, added to or adapted the source code of Mattermost in a way that results in the creation of
-a “modified version” or “work based on” Mattermost as these terms are defined in the AGPL v3.0 license.
+link to the Cusmato Platform directly, but exclusively uses the Cusmato Admin Tools and Configuration Files, and
+(b) you have not modified, added to or adapted the source code of Cusmato in a way that results in the creation of
+a “modified version” or “work based on” Cusmato as these terms are defined in the AGPL v3.0 license.
 
 MATTERMOST TRADEMARK GUIDELINES
 
-Your use of the mark Mattermost is subject to Mattermost, Inc's prior written approval and our organization’s Trademark
+Your use of the mark Cusmato is subject to Mattermost, Inc's prior written approval and our organization’s Trademark
 Standards of Use at https://mattermost.com/trademark-standards-of-use/. For trademark approval or any questions
 you have about using these trademarks, please email trademark@mattermost.com
 
@@ -1311,7 +1311,7 @@ Copyright (c) 2016-present Mattermost, Inc. All Rights Reserved.
 
 This product contains '@mattermost/types'.
 
-Shared type definitions used by the Mattermost web app
+Shared type definitions used by the Cusmato web app
 
 * HOMEPAGE:
   * https://github.com/mattermost/mattermost-server/tree/master/webapp/platform/types#readme
@@ -1322,7 +1322,7 @@ Mattermost Licensing
 
 SOFTWARE LICENSING
 
-You are licensed to use compiled versions of the Mattermost platform produced by Mattermost, Inc. under an MIT LICENSE
+You are licensed to use compiled versions of the Cusmato platform produced by Mattermost, Inc. under an MIT LICENSE
 
 -	See MIT-COMPILED-LICENSE.md included in compiled versions for details
 
@@ -1335,13 +1335,13 @@ You are licensed to use the source code in Admin Tools and Configuration Files (
 plugin/, server/boards/, server/playbooks/, webapp/ and all subdirectories thereof) under the Apache License v2.0.
 
 We promise that we will not enforce the copyleft provisions in AGPL v3.0 against you if your application (a) does not
-link to the Mattermost Platform directly, but exclusively uses the Mattermost Admin Tools and Configuration Files, and
-(b) you have not modified, added to or adapted the source code of Mattermost in a way that results in the creation of
-a “modified version” or “work based on” Mattermost as these terms are defined in the AGPL v3.0 license.
+link to the Cusmato Platform directly, but exclusively uses the Cusmato Admin Tools and Configuration Files, and
+(b) you have not modified, added to or adapted the source code of Cusmato in a way that results in the creation of
+a “modified version” or “work based on” Cusmato as these terms are defined in the AGPL v3.0 license.
 
 MATTERMOST TRADEMARK GUIDELINES
 
-Your use of the mark Mattermost is subject to Mattermost, Inc's prior written approval and our organization’s Trademark
+Your use of the mark Cusmato is subject to Mattermost, Inc's prior written approval and our organization’s Trademark
 Standards of Use at https://mattermost.com/trademark-standards-of-use/. For trademark approval or any questions
 you have about using these trademarks, please email trademark@mattermost.com
 
@@ -8265,7 +8265,7 @@ Mattermost Licensing
 
 SOFTWARE LICENSING
 
-You are licensed to use compiled versions of the Mattermost platform produced by Mattermost, Inc. under an MIT LICENSE
+You are licensed to use compiled versions of the Cusmato platform produced by Mattermost, Inc. under an MIT LICENSE
 
 -	See MIT-COMPILED-LICENSE.md included in compiled versions for details
 
@@ -8278,13 +8278,13 @@ You are licensed to use the source code in Admin Tools and Configuration Files (
 plugin/, server/boards/, server/playbooks/, webapp/ and all subdirectories thereof) under the Apache License v2.0.
 
 We promise that we will not enforce the copyleft provisions in AGPL v3.0 against you if your application (a) does not
-link to the Mattermost Platform directly, but exclusively uses the Mattermost Admin Tools and Configuration Files, and
-(b) you have not modified, added to or adapted the source code of Mattermost in a way that results in the creation of
-a “modified version” or “work based on” Mattermost as these terms are defined in the AGPL v3.0 license.
+link to the Cusmato Platform directly, but exclusively uses the Cusmato Admin Tools and Configuration Files, and
+(b) you have not modified, added to or adapted the source code of Cusmato in a way that results in the creation of
+a “modified version” or “work based on” Cusmato as these terms are defined in the AGPL v3.0 license.
 
 MATTERMOST TRADEMARK GUIDELINES
 
-Your use of the mark Mattermost is subject to Mattermost, Inc's prior written approval and our organization’s Trademark
+Your use of the mark Cusmato is subject to Mattermost, Inc's prior written approval and our organization’s Trademark
 Standards of Use at https://mattermost.com/trademark-standards-of-use/. For trademark approval or any questions
 you have about using these trademarks, please email trademark@mattermost.com
 
@@ -9196,7 +9196,7 @@ THE SOFTWARE.
 
 ## mattermost/rsc
 
-This product contains 'rsc' by Mattermost (forked from original GitHub repo 'petar/rsc' owned by Petar Maymounkov).
+This product contains 'rsc' by Cusmato (forked from original GitHub repo 'petar/rsc' owned by Petar Maymounkov).
 
 fork of Russ Cox's code.google.com/p/rsc
 

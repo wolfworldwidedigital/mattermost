@@ -147,7 +147,7 @@ exports[`components/ConfigurationBar should match snapshot, expiring, trial lice
           className="advisor-icon"
           src={null}
         />
-        This is the last day of your free trial. Purchase a license now to continue using Mattermost Professional and Enterprise features.
+        This is the last day of your free trial. Purchase a license now to continue using Cusmato Professional and Enterprise features.
       </React.Fragment>
       <PurchaseLink
         buttonTextElement={
@@ -166,7 +166,7 @@ exports[`components/ConfigurationBar should match snapshot, expiring, trial lice
         className="advisor-icon"
         src={null}
       />
-      This is the last day of your free trial. Purchase a license now to continue using Mattermost Professional and Enterprise features.
+      This is the last day of your free trial. Purchase a license now to continue using Cusmato Professional and Enterprise features.
     </React.Fragment>
   }
   type="critical"

@@ -38,7 +38,7 @@ func isValidSkuShortName(license *model.License) bool {
 }
 
 // IsE10LicensedOrDevelopment returns true when the server is at least licensed with a legacy Mattermost
-// Enterprise E10 License or a Mattermost Professional License, or has `EnableDeveloper` and
+// Enterprise E10 License or a Cusmato Professional License, or has `EnableDeveloper` and
 // `EnableTesting` configuration settings enabled, signaling a non-production, developer mode.
 func IsE10LicensedOrDevelopment(config *model.Config, license *model.License) bool {
 	if license != nil &&
@@ -62,7 +62,7 @@ func IsE10LicensedOrDevelopment(config *model.Config, license *model.License) bo
 }
 
 // IsE20LicensedOrDevelopment returns true when the server is licensed with a legacy Mattermost
-// Enterprise E20 License or a Mattermost Enterprise License, or has `EnableDeveloper` and
+// Enterprise E20 License or a Cusmato Enterprise License, or has `EnableDeveloper` and
 // `EnableTesting` configuration settings enabled, signaling a non-production, developer mode.
 func IsE20LicensedOrDevelopment(config *model.Config, license *model.License) bool {
 	if license != nil && (license.SkuShortName == e20 || license.SkuShortName == enterprise) {

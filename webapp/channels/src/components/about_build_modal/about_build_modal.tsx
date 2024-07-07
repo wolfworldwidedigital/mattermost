@@ -83,7 +83,7 @@ export default class AboutBuildModal extends React.PureComponent<Props, State> {
             <div>
                 <FormattedMessage
                     id='about.teamEditionLearn'
-                    defaultMessage='Join the Mattermost community at '
+                    defaultMessage='Join the Cusmato community at '
                 />
                 <ExternalLink
                     location='about_build_modal'

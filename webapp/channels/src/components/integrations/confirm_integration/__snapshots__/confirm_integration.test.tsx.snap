@@ -34,7 +34,7 @@ exports[`components/integrations/ConfirmIntegration should match snapshot, comma
     </h4>
     <p>
       <MemoizedFormattedMessage
-        defaultMessage="Your slash command is set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Mattermost team (details at <link>Slash Commands</link>)."
+        defaultMessage="Your slash command is set up. The following token will be sent in the outgoing payload. Please use it to verify the request came from your Cusmato team (details at <link>Slash Commands</link>)."
         id="add_command.doneHelp"
         values={
           Object {
@@ -304,7 +304,7 @@ exports[`components/integrations/ConfirmIntegration should match snapshot, outgo
     </h4>
     <p>
       <MemoizedFormattedMessage
-        defaultMessage="Your outgoing webhook is set up. The following token will be sent in the outgoing payload. Please use it to verify that the request came from your Mattermost team (details at <link>Outgoing Webhooks</link>)."
+        defaultMessage="Your outgoing webhook is set up. The following token will be sent in the outgoing payload. Please use it to verify that the request came from your Cusmato team (details at <link>Outgoing Webhooks</link>)."
         id="add_outgoing_webhook.doneHelp"
         values={
           Object {

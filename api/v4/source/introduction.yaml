@@ -4,7 +4,7 @@ info:
     There is also a work-in-progress [Postman API
     reference](https://documenter.getpostman.com/view/4508214/RW8FERUn).
   version: 4.0.0
-  title: Mattermost API Reference
+  title: Cusmato API Reference
   termsOfService: https://about.mattermost.com/default-terms/
   contact:
     email: feedback@mattermost.com
@@ -14,7 +14,7 @@ info:
 tags:
   - name: introduction
     description: >
-      The Mattermost Web Services API is used by Mattermost clients and third
+      The Cusmato Web Services API is used by Cusmato clients and third
       party applications to interact with the server. [JavaScript and Golang
       drivers for](/#tag/drivers) connecting to the APIs are also available.
 
@@ -22,10 +22,10 @@ tags:
       ### Support
 
 
-      Mattermost core committers work with the community to keep the API documentation up-to-date.
+      Cusmato core committers work with the community to keep the API documentation up-to-date.
 
 
-      If you have questions on API routes not listed in this reference, please [join the Mattermost community server](https://community.mattermost.com) to ask questions in the Developers channel, [or post questions to our Developer Discussion forum](https://forum.mattermost.org/c/dev).
+      If you have questions on API routes not listed in this reference, please [join the Cusmato community server](https://community.mattermost.com) to ask questions in the Developers channel, [or post questions to our Developer Discussion forum](https://forum.mattermost.org/c/dev).
 
 
       [Bug reports](https://github.com/mattermost/mattermost/issues) in the documentation or the API are also welcome, as are pull requests to fix the issues.
@@ -54,13 +54,13 @@ tags:
       For all endpoints that implement pagination via the `per_page` parameter, the maximum number of items returned per request is capped at 200. If `per_page` exceeds 200, the list will be silently truncated to 200 items.
   - name: drivers
     description: >
-      The easiest way to interact with the Mattermost Web Service API is through
+      The easiest way to interact with the Cusmato Web Service API is through
       a language specific driver.
 
 
       #### Official Drivers
 
-      * Mattermost JavaScript/TypeScript Driver
+      * Cusmato JavaScript/TypeScript Driver
         * [NPM](https://www.npmjs.com/package/@mattermost/client)
         * [Source](https://github.com/mattermost/mattermost/tree/master/webapp/platform/client)
 
@@ -71,10 +71,10 @@ tags:
       For community-built drivers and API wrappers, see [our app directory](https://mattermost.com/marketplace/).
   - name: authentication
     description: >
-      There are multiple ways to authenticate against the Mattermost API.
+      There are multiple ways to authenticate against the Cusmato API.
 
 
-      All examples assume there is a Mattermost instance running at http://localhost:8065.
+      All examples assume there is a Cusmato instance running at http://localhost:8065.
 
 
       #### Session Token
@@ -165,13 +165,13 @@ tags:
       #### OAuth 2.0
 
 
-      Mattermost has the ability to act as an [OAuth 2.0](https://tools.ietf.org/html/rfc6749) service provider.
+      Cusmato has the ability to act as an [OAuth 2.0](https://tools.ietf.org/html/rfc6749) service provider.
 
 
-      The official documentation for [using your Mattermost server as an OAuth 2.0 service provider can be found here.](https://docs.mattermost.com/developer/oauth-2-0-applications.html)
+      The official documentation for [using your Cusmato server as an OAuth 2.0 service provider can be found here.](https://docs.mattermost.com/developer/oauth-2-0-applications.html)
 
 
-      For an example on how to register an OAuth 2.0 app with your Mattermost instance, please see the [Mattermost-Zapier integration documentation](https://docs.mattermost.com/integrations/zapier.html#register-zapier-as-an-oauth-2-0-application).
+      For an example on how to register an OAuth 2.0 app with your Cusmato instance, please see the [Mattermost-Zapier integration documentation](https://docs.mattermost.com/integrations/zapier.html#register-zapier-as-an-oauth-2-0-application).
   - name: errors
     description: >
       All errors will return an appropriate HTTP response code along with the
@@ -190,7 +190,7 @@ tags:
       ```
   - name: rate limiting
     description: >
-      Whenever you make an HTTP request to the Mattermost API you might notice
+      Whenever you make an HTTP request to the Cusmato API you might notice
       the following headers included in the response:
 
       ```
@@ -239,7 +239,7 @@ tags:
       ```
   - name: WebSocket
     description: >
-      In addition to the HTTP RESTful web service, Mattermost also offers a
+      In addition to the HTTP RESTful web service, Cusmato also offers a
       WebSocket event delivery system and some API functionality.
 
 
@@ -249,7 +249,7 @@ tags:
       #### Authentication
 
 
-      The Mattermost WebSocket can be authenticated using [the standard API authentication methods](/#tag/authentication) (by a cookie or with an explicit Authorization header) or through an authentication challenge. If you're authenticating from a browser and have logged in with the Mattermost API, your authentication cookie should already be set. This is how the Mattermost webapp authenticates with the WebSocket.
+      The Cusmato WebSocket can be authenticated using [the standard API authentication methods](/#tag/authentication) (by a cookie or with an explicit Authorization header) or through an authentication challenge. If you're authenticating from a browser and have logged in with the Cusmato API, your authentication cookie should already be set. This is how the Cusmato webapp authenticates with the WebSocket.
 
 
       To authenticate with an authentication challenge, first connect the WebSocket and then send the following JSON over the connection:
@@ -315,7 +315,7 @@ tags:
       The `event` field indicates the event type, `data` contains any data relevant to the event and `broadcast` contains information about who the event was sent to. For example, the above example has `user_id` set to "ay5sq51sebfh58ktrce5ijtcwy" meaning that only the user with that ID received this event broadcast. The `omit_users` field can contain an array of user IDs that were specifically omitted from receiving the event.
 
 
-      The list of Mattermost WebSocket events are:
+      The list of Cusmato WebSocket events are:
 
       - added_to_team
 
@@ -409,7 +409,7 @@ tags:
       #### WebSocket API
 
 
-      Mattermost has some basic support for WebSocket APIs. A connected WebSocket can make requests by sending the following over the connection:
+      Cusmato has some basic support for WebSocket APIs. A connected WebSocket can make requests by sending the following over the connection:
 
 
       ```
@@ -516,7 +516,7 @@ tags:
       for more information.
   - name: OAuth
     description:
-      Endpoints for configuring and interacting with Mattermost as an OAuth 2.0
+      Endpoints for configuring and interacting with Cusmato as an OAuth 2.0
       service provider.
   - name: SAML
     description: Endpoints for configuring and interacting with SAML.

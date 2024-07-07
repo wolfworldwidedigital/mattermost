@@ -1,8 +1,8 @@
-# Mattermost Client
+# Cusmato Client
 
 [![npm version](https://img.shields.io/npm/v/@mattermost/client?style=flat)](https://www.npmjs.com/package/@mattermost/client)
 
-This package contains the JavaScript/TypeScript client for [Mattermost](https://github.com/mattermost/mattermost). It's used by [the Mattermost web app](https://github.com/mattermost/mattermost/tree/master/webapp/channels) and related projects.
+This package contains the JavaScript/TypeScript client for [Mattermost](https://github.com/mattermost/mattermost). It's used by [the Cusmato web app](https://github.com/mattermost/mattermost/tree/master/webapp/channels) and related projects.
 
 ## Installation
 
@@ -87,7 +87,7 @@ wsClient.addMessageListener((msg) => {
 
 #### Node.js
 
-Note that `WebSocketClient` expects `globalThis.WebSocket` to be defined as it was originally written for use in the Mattermost web app. If you're using it in a Node.js environment, you should set `globalThis.WebSocket` before instantiating the `WebSocketClient`.
+Note that `WebSocketClient` expects `globalThis.WebSocket` to be defined as it was originally written for use in the Cusmato web app. If you're using it in a Node.js environment, you should set `globalThis.WebSocket` before instantiating the `WebSocketClient`.
 
 ```js
 import WebSocket from 'ws';
@@ -112,7 +112,7 @@ const wsClient = new WebSocketClient();
 
 ## Compilation and Packaging
 
-As a member of Mattermost with write access to our NPM organization, you can build and publish this package by running the following commands:
+As a member of Cusmato with write access to our NPM organization, you can build and publish this package by running the following commands:
 
 ```bash
 npm run build --workspace=platform/client

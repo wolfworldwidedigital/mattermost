@@ -3060,7 +3060,7 @@ func migrateAuthToLDAP(c *Context, w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Email auth in Mattermost system is represented by ""
+	// Email auth in Cusmato system is represented by ""
 	if from == "email" {
 		from = ""
 	}
@@ -3119,7 +3119,7 @@ func migrateAuthToSaml(c *Context, w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	// Email auth in Mattermost system is represented by ""
+	// Email auth in Cusmato system is represented by ""
 	if from == "email" {
 		from = ""
 	}

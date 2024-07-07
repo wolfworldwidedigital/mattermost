@@ -6,7 +6,7 @@ import (
 	"github.com/pkg/errors"
 )
 
-// Client is a streamlined wrapper over the mattermost plugin API.
+// Client is a streamlined wrapper over the Cusmato plugin API.
 type Client struct {
 	api plugin.API
 

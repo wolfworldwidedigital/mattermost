@@ -1012,7 +1012,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Στείλτε μια πρόσκληση μέσω ηλεκτρονικού ταχυδρομείου στην Mattermost ομάδα σας"
+    "translation": "Στείλτε μια πρόσκληση μέσω ηλεκτρονικού ταχυδρομείου στην Cusmato ομάδα σας"
   },
   {
     "id": "api.command.execute_command.failed.app_error",
@@ -1524,7 +1524,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Προσκαλεί έναν εξωτερικό διακομιστή Mattermost στο τρέχον κοινόχρηστο κανάλι"
+    "translation": "Προσκαλεί έναν εξωτερικό διακομιστή Cusmato στο τρέχον κοινόχρηστο κανάλι"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -1660,7 +1660,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Στείλτε την ακόλουθη κρυπτογραφημένη με AES 256-bit πρόσκληση στον εξωτερικό διαχειριστή συστήματος Mattermost μαζί με τον κωδικό πρόσβασης. Αυτός θα χρησιμοποιήσει την εντολή `{{.Command}}` για να αποδεχτεί την πρόσκληση.\n\n```\n{{.Invitation}}\n```\n\n**Βεβαιωθείτε ότι η ασφαλής σύνδεση μπορεί να έχει πρόσβαση στο Mattermost διακομιστή σας μέσω** {{.SiteURL}}"
+    "translation": "Στείλτε την ακόλουθη κρυπτογραφημένη με AES 256-bit πρόσκληση στον εξωτερικό διαχειριστή συστήματος Cusmato μαζί με τον κωδικό πρόσβασης. Αυτός θα χρησιμοποιήσει την εντολή `{{.Command}}` για να αποδεχτεί την πρόσκληση.\n\n```\n{{.Invitation}}\n```\n\n**Βεβαιωθείτε ότι η ασφαλής σύνδεση μπορεί να έχει πρόσβαση στο Cusmato διακομιστή σας μέσω** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -1872,7 +1872,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Παρακαλώ προσθέστε με σε ομάδες και κανάλια που θέλετε να συμμετέχω. Για να το κάνετε αυτό, χρησιμοποιήστε το πρόγραμμα περιήγησης ή την εφαρμογή του Mattermost Desktop."
+    "translation": "Παρακαλώ προσθέστε με σε ομάδες και κανάλια που θέλετε να συμμετέχω. Για να το κάνετε αυτό, χρησιμοποιήστε το πρόγραμμα περιήγησης ή την εφαρμογή του Cusmato Desktop."
   },
   {
     "id": "api.bot.create_disabled",
@@ -1972,7 +1972,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Εισαγωγή αρχείου καταγραφής Mattermost Slack\n"
+    "translation": "Εισαγωγή αρχείου καταγραφής Cusmato Slack\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -1984,11 +1984,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Ο χρήστης Slack συγχωνεύτηκε με έναν υπάρχοντα χρήστη Mattermost με email {{.Email}} και όνομα χρήστη {{.Username}}.\n"
+    "translation": "Ο χρήστης Slack συγχωνεύτηκε με έναν υπάρχοντα χρήστη Cusmato με email {{.Email}} και όνομα χρήστη {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Ο χρήστης Slack συγχωνεύτηκε με έναν υπάρχοντα χρήστη Mattermost με email {{.Email}} και όνομα χρήστη {{.Username}}, αλλά δεν μπόρεσε να προσθέσει τον χρήστη στην ομάδα του.\n"
+    "translation": "Ο χρήστης Slack συγχωνεύτηκε με έναν υπάρχοντα χρήστη Cusmato με email {{.Email}} και όνομα χρήστη {{.Username}}, αλλά δεν μπόρεσε να προσθέσει τον χρήστη στην ομάδα του.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -2442,7 +2442,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Πρέπει να αποδεχτείτε τη Συμφωνία Αξιολόγησης Λογισμικού της Mattermost και την Πολιτική Απορρήτου για να ζητήσετε άδεια χρήσης."
+    "translation": "Πρέπει να αποδεχτείτε τη Συμφωνία Αξιολόγησης Λογισμικού της Cusmato και την Πολιτική Απορρήτου για να ζητήσετε άδεια χρήσης."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -2904,7 +2904,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Η άδεια χρήσης Mattermost Enterprise έχει απενεργοποιηθεί."
+    "translation": "Η άδεια χρήσης Cusmato Enterprise έχει απενεργοποιηθεί."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -2968,7 +2968,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Το Mattermost είναι μια ευέλικτη πλατφόρμα ανταλλαγής μηνυμάτων ανοιχτού κώδικα που επιτρέπει την ασφαλή ομαδική συνεργασία."
+    "translation": "Το Cusmato είναι μια ευέλικτη πλατφόρμα ανταλλαγής μηνυμάτων ανοιχτού κώδικα που επιτρέπει την ασφαλή ομαδική συνεργασία."
   },
   {
     "id": "api.templates.invite_body.title",
@@ -3124,43 +3124,43 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Αυτή η δοκιμαστική άδεια χρήσης για το Mattermost Enterprise Edition έχει λήξει και δεν είναι πλέον έγκυρη. Εάν θέλετε να παρατείνετε τη δοκιμαστική περίοδο, παρακαλούμε [επικοινωνήστε με την ομάδα πωλήσεών μας](https://mattermost.com/contact-us/)."
+    "translation": "Αυτή η δοκιμαστική άδεια χρήσης για το Cusmato Enterprise Edition έχει λήξει και δεν είναι πλέον έγκυρη. Εάν θέλετε να παρατείνετε τη δοκιμαστική περίοδο, παρακαλούμε [επικοινωνήστε με την ομάδα πωλήσεών μας](https://mattermost.com/contact-us/)."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition."
+    "translation": "Το Cusmato δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Αυτή η δυνατότητα θα λειτουργεί μόνο σε συστήματα Linux με αρχιτεκτονική x86-64."
+    "translation": "Το Cusmato δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Αυτή η δυνατότητα θα λειτουργεί μόνο σε συστήματα Linux με αρχιτεκτονική x86-64."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Mattermost {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Το Cusmato δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Cusmato {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Mattermost {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Το Cusmato δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Cusmato {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Mattermost {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Το Cusmato δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Ο χρήστης του συστήματος Cusmato {{.MattermostUsername}} δεν έχει πρόσβαση εγγραφής στο απαραίτητο δυαδικό αρχείο. Ένας διαχειριστής συστήματος μπορεί να ενημερώσει τα δικαιώματα του αρχείου εκτελώντας την ακόλουθη εντολή στο διακομιστή όπου είναι εγκατεστημένο το Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nΑφού γίνει αλλαγή στα δικαιώματα των αρχείων, δοκιμάστε να αναβαθμίσετε ξανά το Mattermost. Όταν κάνετε αναβάθμιση και επανεκκίνηση, θυμηθείτε να επαναφέρετε τα αρχικά δικαιώματα των δυαδικών αρχείων:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition."
+    "translation": "Το Cusmato δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Εκτελείται ήδη μια αναβάθμιση σε Mattermost Enterprise Edition."
+    "translation": "Εκτελείται ήδη μια αναβάθμιση σε Cusmato Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Δεν μπορείτε να κάνετε αναβάθμιση επειδή εκτελείτε ήδη το Mattermost Enterprise Edition."
+    "translation": "Δεν μπορείτε να κάνετε αναβάθμιση επειδή εκτελείτε ήδη το Cusmato Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Έχετε ήδη αναβαθμίσει σε Mattermost Enterprise Edition. Παρακαλώ κάνετε επανεκκίνηση τον διακομιστή για να ολοκληρώσετε την αναβάθμιση."
+    "translation": "Έχετε ήδη αναβαθμίσει σε Cusmato Enterprise Edition. Παρακαλώ κάνετε επανεκκίνηση τον διακομιστή για να ολοκληρώσετε την αναβάθμιση."
   },
   {
     "id": "api.templates.welcome_subject",
@@ -3252,7 +3252,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Το Mattermost δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Δεν ήταν δυνατή η επαλήθευση της ψηφιακής υπογραφής του ληφθέντος δυαδικού αρχείου."
+    "translation": "Το Cusmato δεν μπόρεσε να κάνει αναβάθμιση σε Enterprise Edition. Δεν ήταν δυνατή η επαλήθευση της ψηφιακής υπογραφής του ληφθέντος δυαδικού αρχείου."
   },
   {
     "id": "api.user.add_direct_channels_and_forget.failed.error",
@@ -3436,7 +3436,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Η συνδρομή σας στο Mattermost είναι έτοιμη για ανανέωση"
+    "translation": "Η συνδρομή σας στο Cusmato είναι έτοιμη για ανανέωση"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",

@@ -77,7 +77,7 @@ type tracker struct {
 // NewTracker creates a default Tracker
 // - c Client: A telemetry client. If nil, the tracker will not track any event.
 // - diagnosticID: Server unique ID used for telemetry.
-// - severVersion: Mattermost server version.
+// - severVersion: Cusmato server version.
 // - pluginID: The plugin ID.
 // - pluginVersion: The plugin version.
 // - telemetryShortName: Short name for the plugin to use in telemetry. Used to avoid dot separated names like `com.company.pluginName`.

@@ -1257,7 +1257,7 @@ export class SchemaAdminSettings extends React.PureComponent<Props, State> {
                     // nothing to validate, and validation would fail anyways and prevent saving
                     // In practice, this only happens in custom cloud setup environments like RFQA
                     // where it sets things in the config file directly instead of in the environment
-                    // (like cloud Mattermost does)
+                    // (like cloud Cusmato does)
                     if (hidden) {
                         continue;
                     }

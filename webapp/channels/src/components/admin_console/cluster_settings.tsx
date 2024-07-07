@@ -39,7 +39,7 @@ const messages = defineMessages({
     cluster: {id: 'admin.advance.cluster', defaultMessage: 'High Availability'},
     noteDescription: {id: 'admin.cluster.noteDescription', defaultMessage: 'Changing properties in this section will require a server restart before taking effect.'},
     enableTitle: {id: 'admin.cluster.enableTitle', defaultMessage: 'Enable High Availability Mode:'},
-    enableDescription: {id: 'admin.cluster.enableDescription', defaultMessage: 'When true, Mattermost will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost.'},
+    enableDescription: {id: 'admin.cluster.enableDescription', defaultMessage: 'When true, Cusmato will run in High Availability mode. Please see <link>documentation</link> to learn more about configuring High Availability for Mattermost.'},
     clusterName: {id: 'admin.cluster.ClusterName', defaultMessage: 'Cluster Name:'},
     clusterNameDesc: {id: 'admin.cluster.ClusterNameDesc', defaultMessage: 'The cluster to join by name. Only nodes with the same cluster name will join together. This is to support Blue-Green deployments or staging pointing to the same database.'},
     overrideHostname: {id: 'admin.cluster.OverrideHostname', defaultMessage: 'Override Hostname:'},

@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Здається, Ваша електронна пошта Mattermost встановлена вірно!"
+    "translation": "Здається, Ваша електронна пошта Cusmato встановлена вірно!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -1529,11 +1529,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack користувач об'єднано з існуючим користувачем Mattermost з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}.\r\n"
+    "translation": "Slack користувач об'єднано з існуючим користувачем Cusmato з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack користувач об'єднався з існуючим користувачем Mattermost з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}, але не зміг додати користувача до своєї команди.\r\n"
+    "translation": "Slack користувач об'єднався з існуючим користувачем Cusmato з відповідною електронною адресою {{.Email}} та ім'ям користувача {{.Username}}, але не зміг додати користувача до своєї команди.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1545,7 +1545,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Лог імпорту Mattermost Slack\r\n "
+    "translation": "Лог імпорту Cusmato Slack\r\n "
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -3217,7 +3217,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Не вдалося знайти користувачів в AD/LDAP. Перевірте, чи сервер Mattermost може підключитися до вашого сервера AD/LDAP і повторіть спробу."
+    "translation": "Не вдалося знайти користувачів в AD/LDAP. Перевірте, чи сервер Cusmato може підключитися до вашого сервера AD/LDAP і повторіть спробу."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -4753,7 +4753,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Download the Mattermost app or use a supported browser for a better experience."
+    "translation": "Download the Cusmato app or use a supported browser for a better experience."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -5733,7 +5733,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Please add me to teams and channels you want me to interact in. To do this, use the browser or Mattermost Desktop App."
+    "translation": "Please add me to teams and channels you want me to interact in. To do this, use the browser or Cusmato Desktop App."
   },
   {
     "id": "api.bot.create_disabled",

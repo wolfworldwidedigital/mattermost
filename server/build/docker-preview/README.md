@@ -1,6 +1,6 @@
-# Mattermost Docker Preview Image
+# Cusmato Docker Preview Image
 
-This is a Docker image to install Mattermost in *Preview Mode* for exploring product functionality on a single machine using Docker.
+This is a Docker image to install Cusmato in *Preview Mode* for exploring product functionality on a single machine using Docker.
 
 Note: This configuration should not be used in production, as it’s using a known password string and contains other non-production configuration settings, and it does not support upgrade. If you’re looking for a production installation with Docker, please see the [Mattermost Production Docker Deployment Guide](https://docs.mattermost.com/install/install-docker.html#deploy-mattermost-on-docker-for-production-use).
 

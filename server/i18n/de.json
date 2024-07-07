@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Deine Mattermost E-Mail-Einrichtung scheint korrekt zu sein!"
+    "translation": "Deine Cusmato E-Mail-Einrichtung scheint korrekt zu sein!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -727,7 +727,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Von Mattermost abmelden"
+    "translation": "Von Cusmato abmelden"
   },
   {
     "id": "api.command_logout.name",
@@ -1912,7 +1912,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Diese E-Mail-Adresse wurde verwendet um ein Konto bei Mattermost anzulegen."
+    "translation": "Diese E-Mail-Adresse wurde verwendet um ein Konto bei Cusmato anzulegen."
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1932,7 +1932,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Diese E-Mail-Adresse wurde verwendet, um ein Mattermost Konto zu erstellen."
+    "translation": "Diese E-Mail-Adresse wurde verwendet, um ein Cusmato Konto zu erstellen."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -4540,7 +4540,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Die Nutzungsbedingungen von GitLab haben sich geändert. Bitte gehe zu {{.URL}} um sie zu akzeptieren und versuche dann, dich erneut an Mattermost anzumelden."
+    "translation": "Die Nutzungsbedingungen von GitLab haben sich geändert. Bitte gehe zu {{.URL}} um sie zu akzeptieren und versuche dann, dich erneut an Cusmato anzumelden."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4748,11 +4748,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Diese Version deines Browsers wird von Mattermost nicht mehr unterstützt"
+    "translation": "Diese Version deines Browsers wird von Cusmato nicht mehr unterstützt"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Dieser Browser wird von Mattermost nicht mehr unterstützt"
+    "translation": "Dieser Browser wird von Cusmato nicht mehr unterstützt"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -6924,7 +6924,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Lädt eine externe Mattermost Instanz zum aktuellen geteilten Kanal ein"
+    "translation": "Lädt eine externe Cusmato Instanz zum aktuellen geteilten Kanal ein"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -6944,7 +6944,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Teilt den aktuellen Kanal mit einer externen Mattermost Instanz."
+    "translation": "Teilt den aktuellen Kanal mit einer externen Cusmato Instanz."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7048,7 +7048,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Sende die folgende AES 256-bit verschlüsselte Einladung zu einem externen Mattermost Systemadmin zusammen mit dem Passwort. Diese werden den `{{.Command}}` Slash-Befehl verwenden um die Einladung zu akzeptieren.\n\n```\n{{.Invitation}}\n```\n\n**Sicherstellen, dass die sichere Verbindung deine Mattermost Instanz über {{.SiteURL}} erreicht. **"
+    "translation": "Sende die folgende AES 256-bit verschlüsselte Einladung zu einem externen Cusmato Systemadmin zusammen mit dem Passwort. Diese werden den `{{.Command}}` Slash-Befehl verwenden um die Einladung zu akzeptieren.\n\n```\n{{.Invitation}}\n```\n\n**Sicherstellen, dass die sichere Verbindung deine Cusmato Instanz über {{.SiteURL}} erreicht. **"
   },
   {
     "id": "api.command_remote.invite_password.help",
@@ -7156,7 +7156,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Du musst das Mattermost Software Evaluation Agreement und die Privacy Policy akzeptieren um eine Lizenz anzufragen."
+    "translation": "Du musst das Cusmato Software Evaluation Agreement und die Privacy Policy akzeptieren um eine Lizenz anzufragen."
   },
   {
     "id": "api.job.unable_to_download_job.incorrect_job_type",
@@ -7363,7 +7363,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Lade zu sicheren Verbindungen zur Kommunikation zwischen verschiedene Mattermost Instanzen ein."
+    "translation": "Lade zu sicheren Verbindungen zur Kommunikation zwischen verschiedene Cusmato Instanzen ein."
   },
   {
     "id": "api.admin.saml.failure_reset_authdata_to_email.app_error",
@@ -7455,11 +7455,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Dein Mattermost Abonnement steht zur Erneuerung an"
+    "translation": "Dein Cusmato Abonnement steht zur Erneuerung an"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, dein Abonnement wird in {{.Days}} Tagen ablaufen. Wir hoffen, dass du die flexible und sichere Teamzusammenarbeit erlebst, die Mattermost ermöglicht. Erneuere bald, um sicherzustellen, dass dein Team diese Vorteile weiter genießen kann."
+    "translation": "{{.UserName}}, dein Abonnement wird in {{.Days}} Tagen ablaufen. Wir hoffen, dass du die flexible und sichere Teamzusammenarbeit erlebst, die Cusmato ermöglicht. Erneuere bald, um sicherzustellen, dass dein Team diese Vorteile weiter genießen kann."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -7543,7 +7543,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Die Mattermost App runterladen"
+    "translation": "Die Cusmato App runterladen"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
@@ -7655,15 +7655,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost konnte nicht auf die Enterprise Edition aktualisiert werden. Der Mattermost Systembenutzer {{.MattermostUsername}} hat keinen Schreibzugriff auf die notwendigen binären Dateien. Ein System Administrator kann die Dateiberechtigungen auf dem Server auf dem Mattermost installiert ist, aktualisieren;\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nNach dem Ändern der Dateiberechtigungen, versuche erneut Mattermost zu aktualisieren. Wenn du aktualisierst und neu gestartet hast, vergiss nicht die ursprünglichen Berechtigung auf der binären Datei wieder herzustellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Mattermost konnte nicht auf die Enterprise Edition aktualisiert werden. Der Cusmato Systembenutzer {{.MattermostUsername}} hat keinen Schreibzugriff auf die notwendigen binären Dateien. Ein System Administrator kann die Dateiberechtigungen auf dem Server auf dem Cusmato installiert ist, aktualisieren;\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nNach dem Ändern der Dateiberechtigungen, versuche erneut Cusmato zu aktualisieren. Wenn du aktualisierst und neu gestartet hast, vergiss nicht die ursprünglichen Berechtigung auf der binären Datei wieder herzustellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost konnte nicht auf die Enterprise Edition aktualisiert werden. Der Mattermost Systembenutzer {{.MattermostUsername}} hat keinen Schreibzugriff auf die notwendigen binären Dateien. Ein System Administrator kann die Dateiberechtigungen auf dem Server auf dem Mattermost installiert ist, aktualisieren;\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nNach dem Ändern des Dateiberechtigungen, versuche erneut Mattermost zu aktualisieren. Wenn du aktualisierst und neu gestartet hast, vergiss nicht die ursprünglichen Berechtigung auf der binären Datei wieder herzustellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost konnte nicht auf die Enterprise Edition aktualisiert werden. Der Cusmato Systembenutzer {{.MattermostUsername}} hat keinen Schreibzugriff auf die notwendigen binären Dateien. Ein System Administrator kann die Dateiberechtigungen auf dem Server auf dem Cusmato installiert ist, aktualisieren;\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nNach dem Ändern des Dateiberechtigungen, versuche erneut Cusmato zu aktualisieren. Wenn du aktualisierst und neu gestartet hast, vergiss nicht die ursprünglichen Berechtigung auf der binären Datei wieder herzustellen:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost konnte nicht auf die Enterprise Edition aktualisiert werden. Der Mattermost Systembenutzer {{.MattermostUsername}} hat keinen Schreibzugriff auf die notwendigen binären Dateien. Ein System Administrator kann die Dateiberechtigungen auf dem Server auf dem Mattermost installiert ist, aktualisieren;\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nNach dem Ändern des Dateiberechtigungen, versuche erneut Mattermost zu aktualisieren. Wenn du aktualisierst und neu gestartet hast, vergiss nicht die ursprünglichen Berechtigung auf der binären Datei wieder herzustellen:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost konnte nicht auf die Enterprise Edition aktualisiert werden. Der Cusmato Systembenutzer {{.MattermostUsername}} hat keinen Schreibzugriff auf die notwendigen binären Dateien. Ein System Administrator kann die Dateiberechtigungen auf dem Server auf dem Cusmato installiert ist, aktualisieren;\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nNach dem Ändern des Dateiberechtigungen, versuche erneut Cusmato zu aktualisieren. Wenn du aktualisierst und neu gestartet hast, vergiss nicht die ursprünglichen Berechtigung auf der binären Datei wieder herzustellen:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
@@ -7671,15 +7671,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Eine Aktualisierung auf die Mattermost Enterprise Edition läuft schon."
+    "translation": "Eine Aktualisierung auf die Cusmato Enterprise Edition läuft schon."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Du kannst nicht Aktualisieren, da du schon die Mattermost Enterprise Edition ausführst."
+    "translation": "Du kannst nicht Aktualisieren, da du schon die Cusmato Enterprise Edition ausführst."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Du hast schon auf die Mattermost Enterprise Edition aktualisiert. Bitte starte den Server neu um die Aktualisierung abzuschließen."
+    "translation": "Du hast schon auf die Cusmato Enterprise Edition aktualisiert. Bitte starte den Server neu um die Aktualisierung abzuschließen."
   },
   {
     "id": "app.command.tryexecutecustomcommand.internal_error",
@@ -8995,7 +8995,7 @@
   },
   {
     "id": "api.server.cws.needs_enterprise_edition",
-    "translation": "Dienst nur in der Mattermost Enterprise Edition verfügbar"
+    "translation": "Dienst nur in der Cusmato Enterprise Edition verfügbar"
   },
   {
     "id": "api.system.logs.invalidFilter",
@@ -9915,11 +9915,11 @@
   },
   {
     "id": "api.config.update.elasticsearch.autocomplete_cannot_be_enabled_error",
-    "translation": "Die automatische Vervollständigung von Kanälen kann nicht aktiviert werden, da das Schema des Kanal-Index veraltet ist. Es wird empfohlen, den Kanal-Index neu zu erstellen. Weitere Informationen findest du im Mattermost Changelog"
+    "translation": "Die automatische Vervollständigung von Kanälen kann nicht aktiviert werden, da das Schema des Kanal-Index veraltet ist. Es wird empfohlen, den Kanal-Index neu zu erstellen. Weitere Informationen findest du im Cusmato Changelog"
   },
   {
     "id": "app.channel.elasticsearch_channel_index.notify_admin.message",
-    "translation": "Dein Elasticsearch-Kanal-Indexschema ist veraltet. Es wird empfohlen, deinen Kanal-Index neu zu erstellen.\nKlicke auf die Schaltfläche \"Kanal Index neu erstellen\" im [Elasticsearch-Abschnitt in der Systemkonsole] ({{.ElasticsearchSection}}), um das Problem zu beheben.\nWeitere Informationen findest du im Mattermost Changelog."
+    "translation": "Dein Elasticsearch-Kanal-Indexschema ist veraltet. Es wird empfohlen, deinen Kanal-Index neu zu erstellen.\nKlicke auf die Schaltfläche \"Kanal Index neu erstellen\" im [Elasticsearch-Abschnitt in der Systemkonsole] ({{.ElasticsearchSection}}), um das Problem zu beheben.\nWeitere Informationen findest du im Cusmato Changelog."
   },
   {
     "id": "bleveengine.purge_list.not_implemented",

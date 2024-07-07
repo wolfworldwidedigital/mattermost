@@ -18,7 +18,7 @@ exports[`components/signup/Signup should match snapshot for all signup options e
       <p
         className="signup-body-message-subtitle"
       >
-        Create your Mattermost account to start collaborating with your team
+        Create your Cusmato account to start collaborating with your team
       </p>
       <div
         className="signup-body-message-svg"
@@ -99,7 +99,7 @@ exports[`components/signup/Signup should match snapshot for all signup options e
               <span
                 className="interested"
               >
-                Interested in receiving Mattermost security, product, promotions, and company updates updates via newsletter?
+                Interested in receiving Cusmato security, product, promotions, and company updates updates via newsletter?
               </span>
               <span
                 className="link"
@@ -192,7 +192,7 @@ exports[`components/signup/Signup should match snapshot for all signup options e
       <p
         className="signup-body-message-subtitle"
       >
-        Create your Mattermost account to start collaborating with your team
+        Create your Cusmato account to start collaborating with your team
       </p>
       <div
         className="signup-body-message-svg"
@@ -273,7 +273,7 @@ exports[`components/signup/Signup should match snapshot for all signup options e
               <span
                 className="interested"
               >
-                Interested in receiving Mattermost security, product, promotions, and company updates updates via newsletter?
+                Interested in receiving Cusmato security, product, promotions, and company updates updates via newsletter?
               </span>
               <span
                 className="link"

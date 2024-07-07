@@ -137,7 +137,7 @@ describe('Outgoing webhook', () => {
         verifyProfileNameAndIcon({username: sysadmin.username, userIcon: overriddenIcon});
     });
 
-    it('MM-T2036 overridden username and profile pic (using Mattermost UI)', () => {
+    it('MM-T2036 overridden username and profile pic (using Cusmato UI)', () => {
         // # Go to test channel and post a message
         cy.visit(testChannelUrl);
         cy.postMessage('hello');

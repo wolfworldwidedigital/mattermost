@@ -43,7 +43,7 @@ func OriginChecker(allowedOrigins string) func(*http.Request) bool {
 }
 
 // CheckEmbeddedCookie returns true if the MMEMBED cookie is set to 1.
-// MMEMBED is set via any plugin that facilitates Mattermost embedded in an iframe (e.g. mattermost-plugin-msteams-sync).
+// MMEMBED is set via any plugin that facilitates Cusmato embedded in an iframe (e.g. mattermost-plugin-msteams-sync).
 func CheckEmbeddedCookie(r *http.Request) bool {
 	cookie, err := r.Cookie("MMEMBED")
 	if err != nil {

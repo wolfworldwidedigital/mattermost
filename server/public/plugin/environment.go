@@ -46,7 +46,7 @@ type PrepackagedPlugin struct {
 
 // Environment represents the execution environment of active plugins.
 //
-// It is meant for use by the Mattermost server to manipulate, interact with and report on the set
+// It is meant for use by the Cusmato server to manipulate, interact with and report on the set
 // of active plugins.
 type Environment struct {
 	registeredPlugins                sync.Map
@@ -274,7 +274,7 @@ func checkMinServerVersion(pluginInfo *model.BundleInfo) error {
 		return fmt.Errorf("%v: %v", err.Error(), pluginInfo.Manifest.Id)
 	}
 	if !fulfilled {
-		return fmt.Errorf("plugin requires Mattermost %v: %v", pluginInfo.Manifest.MinServerVersion, pluginInfo.Manifest.Id)
+		return fmt.Errorf("plugin requires Cusmato %v: %v", pluginInfo.Manifest.MinServerVersion, pluginInfo.Manifest.Id)
 	}
 
 	return nil

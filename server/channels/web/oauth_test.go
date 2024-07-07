@@ -506,7 +506,7 @@ func TestOAuthComplete(t *testing.T) {
 	assert.Error(t, err)
 	closeBody(r)
 
-	// We are going to use mattermost as the provider emulating gitlab
+	// We are going to use Cusmato as the provider emulating gitlab
 	th.App.UpdateConfig(func(cfg *model.Config) { *cfg.ServiceSettings.EnableOAuthServiceProvider = true })
 
 	defaultRolePermissions := th.SaveDefaultRolePermissions()

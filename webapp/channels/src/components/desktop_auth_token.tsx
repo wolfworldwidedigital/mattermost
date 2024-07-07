@@ -155,7 +155,7 @@ const DesktopAuthToken: React.FC<Props> = ({href, onLogin}: Props) => {
         bottomMessage = (
             <FormattedMessage
                 id='desktop_auth_token.complete.havingTrouble'
-                defaultMessage='Having trouble logging in? <a>Open Mattermost in your browser</a>'
+                defaultMessage='Having trouble logging in? <a>Open Cusmato in your browser</a>'
                 values={{
                     a: (chunks: React.ReactNode) => {
                         return (

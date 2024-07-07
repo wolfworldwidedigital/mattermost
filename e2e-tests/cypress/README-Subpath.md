@@ -4,11 +4,11 @@ Some tests need multiple servers running in subpath mode. These tests have the c
 In the `cypress.json` configuration file, the `baseURL` setting will need to be updated with the subpath URL of the first server, and the `secondServerURL` setting with the subpath URL of the second server.
 
 ### Running subpath tests on local machine
-Two mattermost servers running on the same machine must be served from different ports. To have the servers respond on the same URL and the same port under different subpaths, you will need to use a reverse proxy (nginx or apache) to proxy the same local url to both mattermost servers under different subpaths.
+Two Cusmato servers running on the same machine must be served from different ports. To have the servers respond on the same URL and the same port under different subpaths, you will need to use a reverse proxy (nginx or apache) to proxy the same local url to both Cusmato servers under different subpaths.
 
 #### Example set up using NGINX:
 
-You'll need to run two Mattermost servers.
+You'll need to run two Cusmato servers.
 
 1. Set the `SiteURL` and the listening port for the first server:
 
@@ -129,4 +129,4 @@ server {
 
 6. In the `cypress.json` file, set `baseURL` to  `"http://localhost/company/mattermost1"` and `secondServerURL` to `"http://localhost/company/mattermost2"`
 
-7. Start both Mattermost tests and run the e2e tests.
+7. Start both Cusmato tests and run the e2e tests.

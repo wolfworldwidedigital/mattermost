@@ -71,7 +71,7 @@ const notices: Notice[] = [
         body: (
             <FormattedMessage
                 id='system_notice.body.permissions'
-                defaultMessage='Some policy and permission System Console settings have moved with the release of <link>advanced permissions</link> into Mattermost Free and Professional.'
+                defaultMessage='Some policy and permission System Console settings have moved with the release of <link>advanced permissions</link> into Cusmato Free and Professional.'
                 values={{
                     link: (msg: React.ReactNode) => (
                         <ExternalLink

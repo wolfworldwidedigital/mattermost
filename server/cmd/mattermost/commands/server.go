@@ -27,7 +27,7 @@ import (
 
 var serverCmd = &cobra.Command{
 	Use:          "server",
-	Short:        "Run the Mattermost server",
+	Short:        "Run the Cusmato server",
 	RunE:         serverCmdF,
 	SilenceUsage: true,
 }
@@ -41,7 +41,7 @@ func serverCmdF(command *cobra.Command, args []string) error {
 	interruptChan := make(chan os.Signal, 1)
 
 	if err := utils.TranslationsPreInit(); err != nil {
-		return errors.Wrap(err, "unable to load Mattermost translation files")
+		return errors.Wrap(err, "unable to load Cusmato translation files")
 	}
 
 	customDefaults, err := loadCustomDefaults()

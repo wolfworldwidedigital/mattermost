@@ -79,7 +79,7 @@ const TeamEditionRightPanel: React.FC<TeamEditionRightPanelProps> = ({
                 <p className='upgrade-legal-terms'>
                     <FormattedMarkdownMessage
                         id='admin.license.enterprise.upgrade.acceptTermsInitial'
-                        defaultMessage='By clicking **Upgrade**, I agree to the terms of the Mattermost '
+                        defaultMessage='By clicking **Upgrade**, I agree to the terms of the Cusmato '
                     />
                     <a
                         role='button'
@@ -116,7 +116,7 @@ const TeamEditionRightPanel: React.FC<TeamEditionRightPanelProps> = ({
                 <p>
                     <FormattedMarkdownMessage
                         id='admin.license.upgraded-restart'
-                        defaultMessage='You have upgraded your binary to mattermost enterprise, please restart the server to start using the new binary. You can do it right here:'
+                        defaultMessage='You have upgraded your binary to Cusmato enterprise, please restart the server to start using the new binary. You can do it right here:'
                     />
                 </p>
                 <p>

@@ -60,7 +60,7 @@ const ContactSalesCard = (props: Props) => {
         title = (
             <FormattedMessage
                 id='admin.billing.subscription.privateCloudCard.cloudEnterprise.title'
-                defaultMessage='Looking to rollout Mattermost for your entire organization? '
+                defaultMessage='Looking to rollout Cusmato for your entire organization? '
             />
         );
         description = (
@@ -104,7 +104,7 @@ const ContactSalesCard = (props: Props) => {
             title = (
                 <FormattedMessage
                     id='admin.billing.subscription.privateCloudCard.cloudEnterprise.title'
-                    defaultMessage='Looking to rollout Mattermost for your entire organization? '
+                    defaultMessage='Looking to rollout Cusmato for your entire organization? '
                 />
             );
             description = (

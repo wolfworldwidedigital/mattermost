@@ -88,7 +88,7 @@ exports[`components/PushSettings should match snapshot, licensed 1`] = `
             type="checkbox"
           />
           <MemoizedFormattedMessage
-            defaultMessage=" I understand and accept the Mattermost Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>."
+            defaultMessage=" I understand and accept the Cusmato Hosted Push Notification Service <linkTerms>Terms of Service</linkTerms> and <linkPrivacy>Privacy Policy</linkPrivacy>."
             id="admin.email.agreeHPNS"
             values={
               Object {

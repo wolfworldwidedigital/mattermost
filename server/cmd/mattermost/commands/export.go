@@ -22,37 +22,37 @@ import (
 var ExportCmd = &cobra.Command{
 	Use:   "export",
 	Short: "Export data from Mattermost",
-	Long:  "Export data from Mattermost in a format suitable for import into a third-party application or another Mattermost instance",
+	Long:  "Export data from Cusmato in a format suitable for import into a third-party application or another Cusmato instance",
 }
 
 var ScheduleExportCmd = &cobra.Command{
 	Use:     "schedule",
 	Short:   "Schedule an export data job in Mattermost",
-	Long:    "Schedule an export data job in Mattermost (this will run asynchronously via a background worker)",
+	Long:    "Schedule an export data job in Cusmato (this will run asynchronously via a background worker)",
 	Example: "export schedule --format=actiance --exportFrom=12345 --timeoutSeconds=12345",
 	RunE:    scheduleExportCmdF,
 }
 
 var CsvExportCmd = &cobra.Command{
 	Use:     "csv",
-	Short:   "Export data from Mattermost in CSV format",
-	Long:    "Export data from Mattermost in CSV format",
+	Short:   "Export data from Cusmato in CSV format",
+	Long:    "Export data from Cusmato in CSV format",
 	Example: "export csv --exportFrom=12345",
 	RunE:    buildExportCmdF("csv"),
 }
 
 var ActianceExportCmd = &cobra.Command{
 	Use:     "actiance",
-	Short:   "Export data from Mattermost in Actiance format",
-	Long:    "Export data from Mattermost in Actiance format",
+	Short:   "Export data from Cusmato in Actiance format",
+	Long:    "Export data from Cusmato in Actiance format",
 	Example: "export actiance --exportFrom=12345",
 	RunE:    buildExportCmdF("actiance"),
 }
 
 var GlobalRelayZipExportCmd = &cobra.Command{
 	Use:     "global-relay-zip",
-	Short:   "Export data from Mattermost into a zip file containing emails to send to Global Relay for debug and testing purposes only.",
-	Long:    "Export data from Mattermost into a zip file containing emails to send to Global Relay for debug and testing purposes only. This does not archive any information in Global Relay.",
+	Short:   "Export data from Cusmato into a zip file containing emails to send to Global Relay for debug and testing purposes only.",
+	Long:    "Export data from Cusmato into a zip file containing emails to send to Global Relay for debug and testing purposes only. This does not archive any information in Global Relay.",
 	Example: "export global-relay-zip --exportFrom=12345",
 	RunE:    buildExportCmdF("globalrelay-zip"),
 }
@@ -60,7 +60,7 @@ var GlobalRelayZipExportCmd = &cobra.Command{
 var BulkExportCmd = &cobra.Command{
 	Use:     "bulk [file]",
 	Short:   "Export bulk data.",
-	Long:    "Export data to a file compatible with the Mattermost Bulk Import format.",
+	Long:    "Export data to a file compatible with the Cusmato Bulk Import format.",
 	Example: "export bulk bulk_data.json",
 	RunE:    bulkExportCmdF,
 	Args:    cobra.ExactArgs(1),

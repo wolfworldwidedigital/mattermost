@@ -245,7 +245,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Det ser ud til at din Mattermost e-mail er sat korrekt op!"
+    "translation": "Det ser ud til at din Cusmato e-mail er sat korrekt op!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -413,7 +413,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Tilføj mig til hold og kanaler, som jeg skal interagere med. For at opnå dette, brug browser eller Mattermost skrivebordsapplikation."
+    "translation": "Tilføj mig til hold og kanaler, som jeg skal interagere med. For at opnå dette, brug browser eller Cusmato skrivebordsapplikation."
   },
   {
     "id": "api.bot.create_disabled",

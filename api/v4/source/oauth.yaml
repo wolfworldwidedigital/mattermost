@@ -4,7 +4,7 @@
         - OAuth
       summary: Register OAuth app
       description: >
-        Register an OAuth 2.0 client application with Mattermost as the service
+        Register an OAuth 2.0 client application with Cusmato as the service
         provider.
 
         ##### Permissions

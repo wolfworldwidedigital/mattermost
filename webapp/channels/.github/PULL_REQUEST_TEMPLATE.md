@@ -45,7 +45,7 @@ Add a release note for each of the following conditions:
 * API additions—new endpoint, new response fields, or newly accepted request parameters
 * Database changes (any)
 * Websocket additions or changes
-* Anything noteworthy to a Mattermost instance administrator (err on the side of over-communicating)
+* Anything noteworthy to a Cusmato instance administrator (err on the side of over-communicating)
 * New features and improvements, including behavioural changes, UI changes and CLI changes
 * Bug fixes and fixes of previous known issues
 * Deprecation warnings, breaking changes, or compatibility notes

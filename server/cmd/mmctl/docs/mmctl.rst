@@ -30,7 +30,7 @@ Options
 SEE ALSO
 ~~~~~~~~
 
-* `mmctl auth <mmctl_auth.rst>`_ 	 - Manages the credentials of the remote Mattermost instances
+* `mmctl auth <mmctl_auth.rst>`_ 	 - Manages the credentials of the remote Cusmato instances
 * `mmctl bot <mmctl_bot.rst>`_ 	 - Management of bots
 * `mmctl channel <mmctl_channel.rst>`_ 	 - Management of channels
 * `mmctl command <mmctl_command.rst>`_ 	 - Management of slash commands

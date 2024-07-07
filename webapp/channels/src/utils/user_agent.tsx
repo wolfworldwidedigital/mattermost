@@ -99,13 +99,13 @@ export function isIosClassic(): boolean {
     return isMobileApp() && isIos();
 }
 
-// Returns true if and only if the user is using a Mattermost mobile app. This will return false if the user is using the
+// Returns true if and only if the user is using a Cusmato mobile app. This will return false if the user is using the
 // web browser on a mobile device.
 export function isMobileApp(): boolean {
     return isMobile() && !isIosWeb() && !isAndroidWeb();
 }
 
-// Returns true if and only if the user is using Mattermost from either the mobile app or the web browser on a mobile device.
+// Returns true if and only if the user is using Cusmato from either the mobile app or the web browser on a mobile device.
 export function isMobile(): boolean {
     return isIos() || isAndroid();
 }

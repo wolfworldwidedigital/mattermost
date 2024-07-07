@@ -1413,7 +1413,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Загрузіце дадатак Mattermost або выкарыстоўвайце падтрымліваемы браўзэр для лепшай працы."
+    "translation": "Загрузіце дадатак Cusmato або выкарыстоўвайце падтрымліваемы браўзэр для лепшай працы."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -2793,7 +2793,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Не ўдалося знайсці карыстальнікаў у AD/LDAP. Праверце, ці можа сервер Mattermost падключыцца да вашага сервера AD/LDAP, і паспрабуйце зноў."
+    "translation": "Не ўдалося знайсці карыстальнікаў у AD/LDAP. Праверце, ці можа сервер Cusmato падключыцца да вашага сервера AD/LDAP, і паспрабуйце зноў."
   },
   {
     "id": "app.webhooks.update_incoming.app_error",
@@ -4345,7 +4345,7 @@
   },
   {
     "id": "ent.elasticsearch.test_config.license.error",
-    "translation": "Ваша версія сервера Mattermost не падтрымлівае Elasticsearch."
+    "translation": "Ваша версія сервера Cusmato не падтрымлівае Elasticsearch."
   },
   {
     "id": "ent.elasticsearch.stop.already_stopped.app_error",
@@ -5637,15 +5637,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Mattermost {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Cusmato {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Mattermost {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Cusmato {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Mattermost {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost не ўдалося абнавіць да Карпаратыўнай рэдакцыі. Сістэмны карыстач Cusmato {{.MattermostUsername}} не мае правоў на запіс у неабходны двайковы файл. Сістэмны адміністратар можа абнавіць правы доступу да файлаў, выканаўшы наступную каманду на серверы, дзе ўсталяваны Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nПасля змены правоў доступу да файла паспрабуйце зноў абнавіць Mattermost. Пасля абнаўлення і перазапуску не забудзьцеся аднавіць зыходныя дазволы для двайковага файла:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
@@ -5653,15 +5653,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Абнаўленне да Mattermost Карпаратыўная рэдакцыя ўжо выконваецца."
+    "translation": "Абнаўленне да Cusmato Карпаратыўная рэдакцыя ўжо выконваецца."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Вы не можаце выканаць абнаўленне, таму што вы ўжо карыстаецеся Mattermost Карпаратыўная рэдакцыя."
+    "translation": "Вы не можаце выканаць абнаўленне, таму што вы ўжо карыстаецеся Cusmato Карпаратыўная рэдакцыя."
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Вы ўжо перайшлі на Mattermost Карпаратыўная рэдакцыя. Калі ласка, перазапусціце сервер, каб завяршыць абнаўленне."
+    "translation": "Вы ўжо перайшлі на Cusmato Карпаратыўная рэдакцыя. Калі ласка, перазапусціце сервер, каб завяршыць абнаўленне."
   },
   {
     "id": "api.unable_to_read_file_from_backend",
@@ -5969,7 +5969,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Карпаратыўная ліцэнзія Mattermost была адключаная."
+    "translation": "Карпаратыўная ліцэнзія Cusmato была адключаная."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -6013,7 +6013,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Ваша падпіска Mattermost падлягае падаўжэнню"
+    "translation": "Ваша падпіска Cusmato падлягае падаўжэнню"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
@@ -6497,7 +6497,7 @@
   },
   {
     "id": "api.license.request-trial.can-start-trial.not-allowed",
-    "translation": "Тэрмін дзеяння гэтага выпрабавальнага ліцэнзійнага ключа для Mattermost Enterprise Edition скончыўся і больш не дзейнічае. Калі вы хочаце падоўжыць пробны перыяд, калі ласка, [звяжыцеся з нашым аддзелам продажаў] (https://mattermost.com/contact-us/)."
+    "translation": "Тэрмін дзеяння гэтага выпрабавальнага ліцэнзійнага ключа для Cusmato Enterprise Edition скончыўся і больш не дзейнічае. Калі вы хочаце падоўжыць пробны перыяд, калі ласка, [звяжыцеся з нашым аддзелам продажаў] (https://mattermost.com/contact-us/)."
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -6505,7 +6505,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Вы павінны прыняць Пагадненне аб ацэнцы праграмнага забеспячэння Mattermost і Палітыку прыватнасці, каб запытаць ліцэнзію."
+    "translation": "Вы павінны прыняць Пагадненне аб ацэнцы праграмнага забеспячэння Cusmato і Палітыку прыватнасці, каб запытаць ліцэнзію."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -7629,7 +7629,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Калі ласка, дадайце мяне ў каманды і каналы, з якімі мне трэба ўзаемадзейнічаць. Гэта можна зрабіць у браўзэры або ў дадатку Mattermost для ПК."
+    "translation": "Калі ласка, дадайце мяне ў каманды і каналы, з якімі мне трэба ўзаемадзейнічаць. Гэта можна зрабіць у браўзэры або ў дадатку Cusmato для ПК."
   },
   {
     "id": "api.bot.create_disabled",
@@ -7713,7 +7713,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Спампаваць Mattermost App"
+    "translation": "Спампаваць Cusmato App"
   },
   {
     "id": "api.templates.cloud_welcome_email.add_apps_sub_info",
@@ -7997,7 +7997,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Лог імпарту Mattermost Slack\n"
+    "translation": "Лог імпарту Cusmato Slack\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -8009,11 +8009,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Карыстальнік Slack аб'яднаны з існуючым карыстальнікам Mattermost па супадзенні email {{.Email}} і імя карыстальніка {{.Username}}, але было немагчыма дадаць карыстальніка ў яго каманду.\n"
+    "translation": "Карыстальнік Slack аб'яднаны з існуючым карыстальнікам Cusmato па супадзенні email {{.Email}} і імя карыстальніка {{.Username}}, але было немагчыма дадаць карыстальніка ў яго каманду.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack карыстальнік зліўся з існуючым карыстальнікам Mattermost з адпаведным адрасам электроннай пошты {{.Email}} і імем карыстальніка {{.Username}}.\n"
+    "translation": "Slack карыстальнік зліўся з існуючым карыстальнікам Cusmato з адпаведным адрасам электроннай пошты {{.Email}} і імем карыстальніка {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -8049,7 +8049,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Здаецца, ваша электронная пошта Mattermost наладжаная правільна!"
+    "translation": "Здаецца, ваша электронная пошта Cusmato наладжаная правільна!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -8325,7 +8325,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Запрашае вонкавы асобнік Mattermost ў бягучы сумесны канал"
+    "translation": "Запрашае вонкавы асобнік Cusmato ў бягучы сумесны канал"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -8481,7 +8481,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Адпраўце наступнае зашыфраванае AES256-bit запрашэнне адміністратару знешняга сервера Mattermost разам з паролем. Для прыняцця запрашэння яны будуць выкарыстоўваць слэш-каманду `{{.Command}}`.\n\n```\n{{.Invitation}}\n```\n\n**Прадастаўце знешняму сайту шыфраванае злучэнне да вашага кластара праз** {{.SiteURL}}"
+    "translation": "Адпраўце наступнае зашыфраванае AES256-bit запрашэнне адміністратару знешняга сервера Cusmato разам з паролем. Для прыняцця запрашэння яны будуць выкарыстоўваць слэш-каманду `{{.Command}}`.\n\n```\n{{.Invitation}}\n```\n\n**Прадастаўце знешняму сайту шыфраванае злучэнне да вашага кластара праз** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",

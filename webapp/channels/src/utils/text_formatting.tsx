@@ -119,7 +119,7 @@ export interface TextFormattingOptionsBase {
     markdown: boolean;
 
     /**
-     * The origin of this Mattermost instance.
+     * The origin of this Cusmato instance.
      *
      * If provided, links to channels and posts will be replaced with internal
      * links that can be handled by a special click handler.

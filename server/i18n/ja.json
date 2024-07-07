@@ -9751,7 +9751,7 @@
   },
   {
     "id": "app.channel.elasticsearch_channel_index.notify_admin.message",
-    "translation": "Elasticsearch チャネルインデックススキーマが古くなっています。チャンネルインデックスを再生成してください。\n問題を解決するには[システムコンソールの Elasticsearch セクション]({{.ElasticsearchSection}}) にある `チャンネルインデックスの再構築` ボタンをクリックしてください。\n詳しくは Mattermost changelog を参照してください。"
+    "translation": "Elasticsearch チャネルインデックススキーマが古くなっています。チャンネルインデックスを再生成してください。\n問題を解決するには[システムコンソールの Elasticsearch セクション]({{.ElasticsearchSection}}) にある `チャンネルインデックスの再構築` ボタンをクリックしてください。\n詳しくは Cusmato changelog を参照してください。"
   },
   {
     "id": "app.import.import_line.null_role.error",

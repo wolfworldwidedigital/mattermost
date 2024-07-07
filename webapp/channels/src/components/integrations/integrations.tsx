@@ -147,7 +147,7 @@ export default class Integrations extends React.PureComponent <Props> {
                         description={
                             <FormattedMessage
                                 id='integrations.oauthApps.description'
-                                defaultMessage='Auth 2.0 allows external applications to make authorized requests to the Mattermost API'
+                                defaultMessage='Auth 2.0 allows external applications to make authorized requests to the Cusmato API'
                             />
                         }
                         link={'/' + this.props.team.name + '/integrations/oauth2-apps'}
@@ -200,7 +200,7 @@ export default class Integrations extends React.PureComponent <Props> {
                     description={
                         <FormattedMessage
                             id='bots.manage.description'
-                            defaultMessage='Use bot accounts to integrate with Mattermost through plugins or the API'
+                            defaultMessage='Use bot accounts to integrate with Cusmato through plugins or the API'
                         />
                     }
                     link={'/' + this.props.team.name + '/integrations/bots'}

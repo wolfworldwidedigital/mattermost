@@ -34,7 +34,7 @@ const ssl = (
         }),
         description: formatMessage({
             id: 'admin.reporting.workspace_optimization.configuration.ssl.description',
-            defaultMessage: 'We strongly recommend securing your Mattermost workspace by configuring SSL in production environments.',
+            defaultMessage: 'We strongly recommend securing your Cusmato workspace by configuring SSL in production environments.',
         }),
         infoUrl: DocLinks.SSL_CERTIFICATE,
         infoText: formatMessage({id: 'admin.reporting.workspace_optimization.cta.learnMore', defaultMessage: 'Learn more'}),
@@ -97,7 +97,7 @@ const fileStorage = async (
         }),
         description: formatMessage({
             id: 'admin.reporting.workspace_optimization.configuration.file_storage.description',
-            defaultMessage: 'Check your file storage settings to ensure your Mattermost workspace has access to the configured file storage.',
+            defaultMessage: 'Check your file storage settings to ensure your Cusmato workspace has access to the configured file storage.',
         }),
         configUrl: ConsolePages.FILE_STORAGE,
         configText: formatMessage({id: 'admin.reporting.workspace_optimization.configuration.file_storage.cta', defaultMessage: 'Config file storage'}),

@@ -56,7 +56,7 @@ describe('/poll', () => {
             // * Poll displays as expected in center
             cy.findByLabelText('matterpoll').should('be.visible');
 
-            // * Mattermost URL renders as a live link
+            // * Cusmato URL renders as a live link
             cy.contains('a', 'https://mattermost.com').
                 should('have.attr', 'href', 'https://mattermost.com');
 

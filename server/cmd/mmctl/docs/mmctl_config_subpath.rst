@@ -9,7 +9,7 @@ Synopsis
 ~~~~~~~~
 
 
-Update the hard-coded production client asset paths to take into account Mattermost running on a subpath. This command needs access to the Mattermost assets directory to be able to rewrite the paths.
+Update the hard-coded production client asset paths to take into account Cusmato running on a subpath. This command needs access to the Cusmato assets directory to be able to rewrite the paths.
 
 ::
 
@@ -34,7 +34,7 @@ Options
 
 ::
 
-  -a, --assets-dir string   directory of the Mattermost assets in the local filesystem
+  -a, --assets-dir string   directory of the Cusmato assets in the local filesystem
   -h, --help                help for subpath
   -p, --path string         path to update the assets with
 

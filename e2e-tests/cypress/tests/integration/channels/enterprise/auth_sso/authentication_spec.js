@@ -46,7 +46,7 @@ describe('Authentication', () => {
         // # Click "Save"
         cy.findByText('Save').scrollIntoView().click();
 
-        // # Wait until we are at the Mattermost Teams page
+        // # Wait until we are at the Cusmato Teams page
         cy.findByText('Mattermost Teams', {timeout: TIMEOUTS.ONE_MIN}).should('be.visible');
 
         cy.apiLogout().visit(`/signup_user_complete/?id=${testTeam.invite_id}`);

@@ -10,7 +10,7 @@ PLAYBOOKS_SRC = $(ROOT)/playbooks
 build: build-v4
 
 build-v4: node_modules playbooks
-	@echo Building mattermost openapi yaml for v4
+	@echo Building Cusmato openapi yaml for v4
 
 	@if [ -r $(PLAYBOOKS_SRC)/merged-tags.yaml ]; then cat $(PLAYBOOKS_SRC)/merged-tags.yaml > $(V4_YAML); else cat $(V4_SRC)/introduction.yaml > $(V4_YAML); fi
 	@cat $(V4_SRC)/users.yaml >> $(V4_YAML)

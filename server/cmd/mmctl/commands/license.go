@@ -38,7 +38,7 @@ var UploadLicenseStringCmd = &cobra.Command{
 var RemoveLicenseCmd = &cobra.Command{
 	Use:     "remove",
 	Short:   "Remove the current license.",
-	Long:    "Remove the current license and leave mattermost in Team Edition.",
+	Long:    "Remove the current license and leave Cusmato in Team Edition.",
 	Example: "  license remove",
 	RunE:    withClient(removeLicenseCmdF),
 }

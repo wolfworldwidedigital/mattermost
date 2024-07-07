@@ -3,13 +3,13 @@
 mmctl auth
 ----------
 
-Manages the credentials of the remote Mattermost instances
+Manages the credentials of the remote Cusmato instances
 
 Synopsis
 ~~~~~~~~
 
 
-Manages the credentials of the remote Mattermost instances
+Manages the credentials of the remote Cusmato instances
 
 Options
 ~~~~~~~

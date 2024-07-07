@@ -23,7 +23,7 @@ type configuration struct {
 	channelID string
 }
 
-// HelpPlugin implements the interface expected by the Mattermost server to communicate
+// HelpPlugin implements the interface expected by the Cusmato server to communicate
 // between the server and plugin processes.
 type HelpPlugin struct {
 	plugin.MattermostPlugin
@@ -65,7 +65,7 @@ func (p *HelpPlugin) setConfiguration(configuration *configuration) {
 func (p *HelpPlugin) OnConfigurationChange() error {
 	var configuration = new(configuration)
 
-	// Load the public configuration fields from the Mattermost server configuration.
+	// Load the public configuration fields from the Cusmato server configuration.
 	if err := p.API.LoadPluginConfiguration(configuration); err != nil {
 		return errors.Wrap(err, "failed to load plugin configuration")
 	}

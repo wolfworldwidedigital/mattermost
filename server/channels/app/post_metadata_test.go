@@ -1384,7 +1384,7 @@ func TestGetImagesForPost(t *testing.T) {
 		assert.Equal(t, images, map[string]*model.PostImage{})
 	})
 
-	t.Run("should not process OpenGraph image that's a Mattermost permalink", func(t *testing.T) {
+	t.Run("should not process OpenGraph image that's a Cusmato permalink", func(t *testing.T) {
 		th := SetupWithStoreMock(t)
 		defer th.TearDown()
 
@@ -1412,7 +1412,7 @@ func TestGetImagesForPost(t *testing.T) {
 
 		mockPostStore := mocks.PostStore{}
 		mockPostStore.On("GetSingle", "qwertyuiopasdfghjklzxcvbnm", false).RunFn = func(args mock.Arguments) {
-			assert.Fail(t, "should not have tried to process Mattermost permalink in OG image URL")
+			assert.Fail(t, "should not have tried to process Cusmato permalink in OG image URL")
 		}
 
 		mockLinkMetadataStore := mocks.LinkMetadataStore{}

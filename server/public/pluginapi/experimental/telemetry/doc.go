@@ -1,7 +1,7 @@
 // Package telemetry allows you to add telemetry to your plugins.
 // For Rudder, you can set the data plane URL and the write key on build time,
 // to allow having different keys for production and development.
-// If you are working on a Mattermost project, the data plane URL is already set.
+// If you are working on a Cusmato project, the data plane URL is already set.
 // In order to default to the development key we have to set an environment variable during build time.
 // Copy the following lines in build/custom.mk to setup that variable.
 //

@@ -37,7 +37,7 @@ type Item struct {
 
 var I18nCmd = &cobra.Command{
 	Use:   "i18n",
-	Short: "Management of Mattermost translations",
+	Short: "Management of Cusmato translations",
 }
 
 var ExtractCmd = &cobra.Command{
@@ -74,29 +74,29 @@ var CleanEmptyCmd = &cobra.Command{
 
 func init() {
 	ExtractCmd.Flags().Bool("skip-dynamic", false, "Whether to skip dynamically added translations")
-	ExtractCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	ExtractCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	ExtractCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
-	ExtractCmd.Flags().String("model-dir", "../model", "Path to folder with the Mattermost model package source code")
-	ExtractCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Mattermost plugin package source code")
+	ExtractCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Cusmato Customer Portal source code")
+	ExtractCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Cusmato enterprise source code")
+	ExtractCmd.Flags().String("server-dir", "./", "Path to folder with the Cusmato server source code")
+	ExtractCmd.Flags().String("model-dir", "../model", "Path to folder with the Cusmato model package source code")
+	ExtractCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Cusmato plugin package source code")
 	ExtractCmd.Flags().Bool("contributor", false, "Allows contributors safely extract translations from source code without removing enterprise messages keys")
 
 	CheckCmd.Flags().Bool("skip-dynamic", false, "Whether to skip dynamically added translations")
-	CheckCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	CheckCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	CheckCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
-	CheckCmd.Flags().String("model-dir", "../model", "Path to folder with the Mattermost model package source code")
-	CheckCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Mattermost plugin package source code")
+	CheckCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Cusmato Customer Portal source code")
+	CheckCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Cusmato enterprise source code")
+	CheckCmd.Flags().String("server-dir", "./", "Path to folder with the Cusmato server source code")
+	CheckCmd.Flags().String("model-dir", "../model", "Path to folder with the Cusmato model package source code")
+	CheckCmd.Flags().String("plugin-dir", "../plugin", "Path to folder with the Cusmato plugin package source code")
 
-	CheckEmptySrcCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	CheckEmptySrcCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	CheckEmptySrcCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
+	CheckEmptySrcCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Cusmato Customer Portal source code")
+	CheckEmptySrcCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Cusmato enterprise source code")
+	CheckEmptySrcCmd.Flags().String("server-dir", "./", "Path to folder with the Cusmato server source code")
 
 	CleanEmptyCmd.Flags().Bool("dry-run", false, "Run without applying changes")
 	CleanEmptyCmd.Flags().Bool("check", false, "Throw exit code on empty translation strings")
-	CleanEmptyCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Mattermost Customer Portal source code")
-	CleanEmptyCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Mattermost enterprise source code")
-	CleanEmptyCmd.Flags().String("server-dir", "./", "Path to folder with the Mattermost server source code")
+	CleanEmptyCmd.Flags().String("portal-dir", "../customer-web-server", "Path to folder with the Cusmato Customer Portal source code")
+	CleanEmptyCmd.Flags().String("enterprise-dir", "../../enterprise", "Path to folder with the Cusmato enterprise source code")
+	CleanEmptyCmd.Flags().String("server-dir", "./", "Path to folder with the Cusmato server source code")
 
 	I18nCmd.AddCommand(
 		ExtractCmd,

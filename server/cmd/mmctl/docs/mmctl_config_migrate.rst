@@ -9,7 +9,7 @@ Synopsis
 ~~~~~~~~
 
 
-Migrate a file-based configuration to (or from) a database-based configuration. Point the Mattermost server at the target configuration to start using it. Note that this command is only available in `--local` mode.
+Migrate a file-based configuration to (or from) a database-based configuration. Point the Cusmato server at the target configuration to start using it. Note that this command is only available in `--local` mode.
 
 ::
 

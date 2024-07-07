@@ -853,7 +853,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Ei voitu etsiä käyttäjiä AD/LDAPista. Tarkista että Mattermost palvelu voi yhdistää AD/LDAP palveluun ja yritä uudestaan."
+    "translation": "Ei voitu etsiä käyttäjiä AD/LDAPista. Tarkista että Cusmato palvelu voi yhdistää AD/LDAP palveluun ja yritä uudestaan."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -873,7 +873,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "AD/LDAP tililläsi ei ole lupaa käyttää tätä Mattermost palvelua. Pyydä järjestelmänvalvojaa tarkistamaan AD/LDAP käyttäjäsuodatuksen."
+    "translation": "AD/LDAP tililläsi ei ole lupaa käyttää tätä Cusmato palvelua. Pyydä järjestelmänvalvojaa tarkistamaan AD/LDAP käyttäjäsuodatuksen."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",

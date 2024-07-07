@@ -12,7 +12,7 @@ import (
 	"github.com/mattermost/mattermost/server/v8/platform/shared/templates"
 )
 
-// MattermostApp describes downloads for the Mattermost App
+// MattermostApp describes downloads for the Cusmato App
 type MattermostApp struct {
 	LogoSrc                string
 	Title                  string
@@ -66,7 +66,7 @@ func renderUnsupportedBrowser(ctx request.CTX, r *http.Request) templates.Data {
 		data.Props["NoLongerSupportString"] = ctx.T("web.error.unsupported_browser.no_longer_support")
 	}
 
-	// Mattermost app version
+	// Cusmato app version
 	if isWindows {
 		data.Props["App"] = renderMattermostAppWindows(ctx)
 	} else if isMacOSX {

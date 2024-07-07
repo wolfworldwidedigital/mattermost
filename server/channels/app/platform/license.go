@@ -298,7 +298,7 @@ func (ps *PlatformService) GetSanitizedClientLicense() map[string]string {
 	return utils.GetSanitizedClientLicense(ps.ClientLicense())
 }
 
-// RequestTrialLicense request a trial license from the mattermost official license server
+// RequestTrialLicense request a trial license from the Cusmato official license server
 func (ps *PlatformService) RequestTrialLicense(trialRequest *model.TrialLicenseRequest) *model.AppError {
 	trialRequestJSON, err := json.Marshal(trialRequest)
 	if err != nil {

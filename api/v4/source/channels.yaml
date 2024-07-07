@@ -1666,7 +1666,7 @@
         Must be logged in as user or have `edit_other_users` permission.
 
 
-        __Response only includes `last_viewed_at_times` in Mattermost server 4.3 and newer.__
+        __Response only includes `last_viewed_at_times` in Cusmato server 4.3 and newer.__
       operationId: ViewChannel
       parameters:
         - in: path

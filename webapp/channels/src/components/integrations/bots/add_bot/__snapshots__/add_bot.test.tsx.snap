@@ -266,7 +266,7 @@ exports[`components/integrations/bots/AddBot blank 1`] = `
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="Bot will have access to post to all Mattermost channels including direct messages."
+              defaultMessage="Bot will have access to post to all Cusmato channels including direct messages."
               id="bot.add.post_all.help"
             />
           </div>
@@ -310,7 +310,7 @@ exports[`components/integrations/bots/AddBot blank 1`] = `
             className="form__help"
           >
             <MemoizedFormattedMessage
-              defaultMessage="Bot will have access to post to all Mattermost public channels."
+              defaultMessage="Bot will have access to post to all Cusmato public channels."
               id="bot.add.post_channels.help"
             />
           </div>

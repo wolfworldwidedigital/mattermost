@@ -26,7 +26,7 @@ exports[`components/MessageExportSettings should match snapshot, disabled, actia
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
+            defaultMessage="When true, Cusmato will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
             id="admin.service.complianceExportDesc"
             values={
               Object {
@@ -206,7 +206,7 @@ exports[`components/MessageExportSettings should match snapshot, disabled, globa
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
+            defaultMessage="When true, Cusmato will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
             id="admin.service.complianceExportDesc"
             values={
               Object {
@@ -500,7 +500,7 @@ exports[`components/MessageExportSettings should match snapshot, enabled, actian
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
+            defaultMessage="When true, Cusmato will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
             id="admin.service.complianceExportDesc"
             values={
               Object {
@@ -680,7 +680,7 @@ exports[`components/MessageExportSettings should match snapshot, enabled, global
         }
         helpText={
           <Memo(MemoizedFormattedMessage)
-            defaultMessage="When true, Mattermost will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
+            defaultMessage="When true, Cusmato will export all messages that were posted in the last 24 hours. The export task is scheduled to run once per day. See <link>the documentation</link> to learn more."
             id="admin.service.complianceExportDesc"
             values={
               Object {

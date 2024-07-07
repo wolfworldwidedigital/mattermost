@@ -11,7 +11,7 @@ cd "$(dirname "$0")"
 # Default or assert variables required by the save_report.js script, and document optional variables
 : ${FULL_REPORT:=false} # Valid values: true, false
 : ${TYPE:=NONE}         # Valid values: PR, RELEASE, MASTER, MASTER_UNSTABLE, CLOUD, CLOUD_UNSTABLE, NONE (which is the same as omitting it); also known as REPORT_TYPE
-: ${WEBHOOK_URL:-}      # Optional. Mattermost webhook to post the report back to
+: ${WEBHOOK_URL:-}      # Optional. Cusmato webhook to post the report back to
 : ${RELEASE_DATE:-}     # Optional. If set, its value will be included in the report as the release date of the tested artifact
 if [ "$TYPE" = "PR" ]; then
   # In this case, we expect the PR number to be present in the BRANCH variable

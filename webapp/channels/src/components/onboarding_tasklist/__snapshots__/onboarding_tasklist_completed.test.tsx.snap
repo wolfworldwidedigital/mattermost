@@ -22,7 +22,7 @@ exports[`components/onboarding_tasklist/onboarding_tasklist_completed.tsx should
         className="completed-subtitle"
       >
         <MemoizedFormattedMessage
-          defaultMessage="We hope Mattermost is more familiar now."
+          defaultMessage="We hope Cusmato is more familiar now."
           id="onboardingTask.checklist.completed_subtitle"
         />
       </span>

@@ -290,7 +290,7 @@ export default function ChannelNotificationsModal(props: Props) {
                 titleSuffix={resetToDefaultBtn('desktop')}
                 description={formatMessage({
                     id: 'channel_notifications.desktopNotificationsDesc',
-                    defaultMessage: 'Available on Chrome, Edge, Firefox, and the Mattermost Desktop App.',
+                    defaultMessage: 'Available on Chrome, Edge, Firefox, and the Cusmato Desktop App.',
                 })}
                 content={DesktopNotificationsSectionContent}
             />

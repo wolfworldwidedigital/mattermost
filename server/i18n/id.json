@@ -829,7 +829,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Akun LDAP Anda tidak memiliki hak akses untuk menggunakan server Mattermost ini. Silakan hubungi Administrator Sistem untuk memeriksa filter LDAP pengguna."
+    "translation": "Akun LDAP Anda tidak memiliki hak akses untuk menggunakan server Cusmato ini. Silakan hubungi Administrator Sistem untuk memeriksa filter LDAP pengguna."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -2247,7 +2247,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Kirimkan email undangan ke tim Mattermost anda"
+    "translation": "Kirimkan email undangan ke tim Cusmato anda"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -2771,7 +2771,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Tolong tambahkan (add) saya ke tim dan channel yang anda ingin saya interaksi di. Untuk mengatifkan fitur ini, tolong pakai browser atau Mattermost Desktop App."
+    "translation": "Tolong tambahkan (add) saya ke tim dan channel yang anda ingin saya interaksi di. Untuk mengatifkan fitur ini, tolong pakai browser atau Cusmato Desktop App."
   },
   {
     "id": "api.admin.upload_brand_image.too_large.app_error",
@@ -2807,7 +2807,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Sepertinya pengaturan email Mattermost Anda telah benar!"
+    "translation": "Sepertinya pengaturan email Cusmato Anda telah benar!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.invalid_body.app_error",
@@ -3303,7 +3303,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Kirimkan undangan terenkripsi AES 256-bit berikut ini ke Admin Sistem Mattermost eksternal bersama dengan kata sandi. Mereka akan menggunakan perintah garis miring `{{.Command}}` untuk menerima undangan.\n\n```\n{{.Undangan}}\n```\n\n**Pastikan koneksi aman dapat mengakses instance Mattermost Anda melalui** {{.SiteURL}}"
+    "translation": "Kirimkan undangan terenkripsi AES 256-bit berikut ini ke Admin Sistem Cusmato eksternal bersama dengan kata sandi. Mereka akan menggunakan perintah garis miring `{{.Command}}` untuk menerima undangan.\n\n```\n{{.Undangan}}\n```\n\n**Pastikan koneksi aman dapat mengakses instance Cusmato Anda melalui** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.remove_remote.error",
@@ -3331,7 +3331,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Mengundang instance eksternal Mattermost ke saluran bersama saat ini"
+    "translation": "Mengundang instance eksternal Cusmato ke saluran bersama saat ini"
   },
   {
     "id": "api.command_share.not_shared_channel_unshare",
@@ -3367,7 +3367,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Terima undangan dari instance Mattermost eksternal"
+    "translation": "Terima undangan dari instance Cusmato eksternal"
   },
   {
     "id": "api.command_remote.accept_invitation",

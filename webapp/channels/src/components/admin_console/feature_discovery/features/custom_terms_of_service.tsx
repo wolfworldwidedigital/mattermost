@@ -17,11 +17,11 @@ const CustomTermsOfServiceFeatureDiscovery: React.FC = () => {
             minimumSKURequiredForFeature={LicenseSkus.Enterprise}
             title={defineMessage({
                 id: 'admin.custom_terms_of_service_feature_discovery.title',
-                defaultMessage: 'Create custom terms of service with Mattermost Enterprise',
+                defaultMessage: 'Create custom terms of service with Cusmato Enterprise',
             })}
             copy={defineMessage({
                 id: 'admin.custom_terms_of_service_feature_discovery.copy',
-                defaultMessage: 'Create your own terms of service that new users must accept before accessing your Mattermost instance on desktop, web, or mobile.',
+                defaultMessage: 'Create your own terms of service that new users must accept before accessing your Cusmato instance on desktop, web, or mobile.',
             })}
             learnMoreURL='https://docs.mattermost.com/cloud/cloud-administration/custom-terms-of-service.html'
             featureDiscoveryImage={<CustomTermsOfServiceSVG/>}

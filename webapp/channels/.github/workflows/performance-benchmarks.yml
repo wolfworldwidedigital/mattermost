@@ -77,11 +77,11 @@ jobs:
           name: Cypress logs
           path: e2e/cypress/tests/integration/performance/logs/
           retention-days: 3
-      - name: Upload Mattermost logs
+      - name: Upload Cusmato logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v3
         with:
-          name: Mattermost logs
+          name: Cusmato logs
           path: e2e/cypress/mattermost/logs/mattermost.log
           retention-days: 3
       - name: Upload screenshots

@@ -1,6 +1,6 @@
 # @mattermost/eslint-plugin
 
-An ESLint plugin containing the configuration used by Mattermost as well as support for custom rules specific to the Mattermost code base.
+An ESLint plugin containing the configuration used by Cusmato as well as support for custom rules specific to the Cusmato code base.
 
 ## Custom Rules
 
@@ -30,7 +30,7 @@ export function someAction() {
 
 ### use-external-link
 
-Ensures that any link which opens a URL outside of Mattermost using `target="_blank"` uses the `ExternalLink` component.
+Ensures that any link which opens a URL outside of Cusmato using `target="_blank"` uses the `ExternalLink` component.
 
 Examples of **incorrect** code for this rule:
 ```javascript

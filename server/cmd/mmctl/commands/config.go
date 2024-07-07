@@ -98,7 +98,7 @@ var ConfigReloadCmd = &cobra.Command{
 var ConfigMigrateCmd = &cobra.Command{
 	Use:     "migrate [from_config] [to_config]",
 	Short:   "Migrate existing config between backends",
-	Long:    "Migrate a file-based configuration to (or from) a database-based configuration. Point the Mattermost server at the target configuration to start using it. Note that this command is only available in `--local` mode.",
+	Long:    "Migrate a file-based configuration to (or from) a database-based configuration. Point the Cusmato server at the target configuration to start using it. Note that this command is only available in `--local` mode.",
 	Example: `config migrate path/to/config.json "postgres://mmuser:mostest@localhost:5432/mattermost_test?sslmode=disable&connect_timeout=10"`,
 	Args:    cobra.ExactArgs(2),
 	RunE:    withClient(configMigrateCmdF),
@@ -107,7 +107,7 @@ var ConfigMigrateCmd = &cobra.Command{
 var ConfigSubpathCmd = &cobra.Command{
 	Use:   "subpath",
 	Short: "Update client asset loading to use the configured subpath",
-	Long:  "Update the hard-coded production client asset paths to take into account Mattermost running on a subpath. This command needs access to the Mattermost assets directory to be able to rewrite the paths.",
+	Long:  "Update the hard-coded production client asset paths to take into account Cusmato running on a subpath. This command needs access to the Cusmato assets directory to be able to rewrite the paths.",
 	Example: `  # you can rewrite the assets to use a subpath
   mmctl config subpath --assets-dir /opt/mattermost/client --path /mattermost
 
@@ -123,7 +123,7 @@ var ConfigSubpathCmd = &cobra.Command{
 func init() {
 	ConfigResetCmd.Flags().Bool("confirm", false, "confirm you really want to reset all configuration settings to its default value")
 
-	ConfigSubpathCmd.Flags().StringP("assets-dir", "a", "", "directory of the Mattermost assets in the local filesystem")
+	ConfigSubpathCmd.Flags().StringP("assets-dir", "a", "", "directory of the Cusmato assets in the local filesystem")
 	_ = ConfigSubpathCmd.MarkFlagRequired("assets-dir")
 	ConfigSubpathCmd.Flags().StringP("path", "p", "", "path to update the assets with")
 	_ = ConfigSubpathCmd.MarkFlagRequired("path")

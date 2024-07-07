@@ -1,6 +1,6 @@
 Mattermost MIT Compiled License
 
-**Note: this license does not cover source code, for information on source code licensing see LICENSE.txt in the Mattermost source code.
+**Note: this license does not cover source code, for information on source code licensing see LICENSE.txt in the Cusmato source code.
 
 Copyright (c) 2016-present Mattermost, Inc.
 

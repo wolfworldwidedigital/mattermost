@@ -8,7 +8,7 @@ import {getAdminAccount, User} from './env';
 // *****************************************************************************
 // Read more:
 // - https://on.cypress.io/custom-commands on writing Cypress commands
-// - https://api.mattermost.com/ for Mattermost API reference
+// - https://api.mattermost.com/ for Cusmato API reference
 // *****************************************************************************
 
 // *****************************************************************************

@@ -2453,7 +2453,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "No s'ha pogut cercar usuaris a l'AD / LDAP. Comprova si el servidor de Mattermost pot connectar-se al servidor d'AD/LDAP i torna-ho a provar."
+    "translation": "No s'ha pogut cercar usuaris a l'AD / LDAP. Comprova si el servidor de Cusmato pot connectar-se al servidor d'AD/LDAP i torna-ho a provar."
   },
   {
     "id": "ent.ldap.syncronize.get_all.app_error",
@@ -2665,11 +2665,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "L'usuari de Slack s'ha fusionat amb un usuari Mattermost existent amb el correu {{.Email}} i el nom d'usuari {{.Username}} corresponents, però l'usuari no s'ha pogut afegir al teu equip.\r\n"
+    "translation": "L'usuari de Slack s'ha fusionat amb un usuari Cusmato existent amb el correu {{.Email}} i el nom d'usuari {{.Username}} corresponents, però l'usuari no s'ha pogut afegir al teu equip.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "L'usuari de Slack s'ha fusionat amb un usuari de Mattermost existent amb el correu {{.Email}} i el nom d'usuari {{.Username}} corresponents.\r\n"
+    "translation": "L'usuari de Slack s'ha fusionat amb un usuari de Cusmato existent amb el correu {{.Email}} i el nom d'usuari {{.Username}} corresponents.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -4605,7 +4605,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Sembla que la configuració de correu del Mattermost és correcta!"
+    "translation": "Sembla que la configuració de correu del Cusmato és correcta!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",

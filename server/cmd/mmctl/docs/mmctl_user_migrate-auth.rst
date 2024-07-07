@@ -27,7 +27,7 @@ Options
 
 ::
 
-      --auto      Automatically migrate all users. Assumes the usernames and emails are identical between Mattermost and SAML services. (saml only)
+      --auto      Automatically migrate all users. Assumes the usernames and emails are identical between Cusmato and SAML services. (saml only)
       --confirm   Confirm you really want to proceed with auto migration. (saml only)
       --force     Force the migration to occur even if there are duplicates on the LDAP server. Duplicates will not be migrated. (ldap only)
   -h, --help      help for migrate-auth

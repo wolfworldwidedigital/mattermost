@@ -56,7 +56,7 @@ func init() {
 	listJobsCmd.Flags().String("status", "", "Filter by job status")
 	listJobsCmd.Flags().String("type", "", "Filter by job type")
 
-	updateJobCmd.Flags().Bool("force", false, "Setting a job status is restricted to certain statuses. You can overwrite these restrictions by using --force. This might cause unexpected behaviour on your Mattermost Server. Use this option with caution.")
+	updateJobCmd.Flags().Bool("force", false, "Setting a job status is restricted to certain statuses. You can overwrite these restrictions by using --force. This might cause unexpected behaviour on your Cusmato Server. Use this option with caution.")
 
 	JobCmd.AddCommand(
 		listJobsCmd,

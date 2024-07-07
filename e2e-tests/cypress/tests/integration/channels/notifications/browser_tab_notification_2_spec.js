@@ -95,7 +95,7 @@ describe('Notifications', () => {
         cy.apiLogin(user1);
         cy.visit(testTeam1TownSquareUrl);
 
-        // * Browser tab should displays (1) * channel - [team name] Mattermost (for verify count increase)
+        // * Browser tab should displays (1) * channel - [team name] Cusmato (for verify count increase)
         cy.title().should('include', `(1) Town Square - ${team1.display_name} ${siteName}`);
 
         // # Have another user view team B

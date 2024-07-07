@@ -239,7 +239,7 @@ const TrialBanner = ({
             <>
                 <FormattedMessage
                     id='admin.license.trial-request.title'
-                    defaultMessage='Experience Mattermost Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
+                    defaultMessage='Experience Cusmato Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
                 />
                 <FormattedMessage
                     id='admin.license.trial-request.accept-terms'
@@ -301,7 +301,7 @@ const TrialBanner = ({
             <>
                 <FormattedMessage
                     id='admin.license.upgrade-and-trial-request.title'
-                    defaultMessage='Upgrade to Enterprise Edition and Experience Mattermost Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
+                    defaultMessage='Upgrade to Enterprise Edition and Experience Cusmato Enterprise Edition for free for the next 30 days. No obligation to buy or credit card required. '
                 />
             </>
         );
@@ -334,7 +334,7 @@ const TrialBanner = ({
                     />
                     <FormattedMessage
                         id='admin.license.upgrade-and-trial-request.accept-terms-final-part'
-                        defaultMessage='Also, I agree to the terms of the Mattermost {eeModalTerms}. Upgrading will download the binary and update your Team Edition instance.'
+                        defaultMessage='Also, I agree to the terms of the Cusmato {eeModalTerms}. Upgrading will download the binary and update your Team Edition instance.'
                         values={{eeModalTerms}}
                     />
                 </p>

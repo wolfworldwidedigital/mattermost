@@ -28,7 +28,7 @@ ADD docker-entry.sh .
 RUN chmod +x ./docker-entry.sh
 ENTRYPOINT ./docker-entry.sh
 
-# Mattermost environment variables
+# Cusmato environment variables
 ENV PATH="/mm/mattermost/bin:${PATH}"
 
 # Create default storage directory

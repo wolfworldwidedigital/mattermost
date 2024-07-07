@@ -1085,11 +1085,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "این نسخه از مرورگر شما دیگر توسط Mattermost پشتیبانی نمی شود"
+    "translation": "این نسخه از مرورگر شما دیگر توسط Cusmato پشتیبانی نمی شود"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "این مرورگر دیگر توسط Mattermost پشتیبانی نمی شود"
+    "translation": "این مرورگر دیگر توسط Cusmato پشتیبانی نمی شود"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -1133,7 +1133,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "برای داشتن تجربه بهتر ، برنامه Mattermost را بارگیری کنید یا از یک مرورگر پشتیبانی شده استفاده کنید."
+    "translation": "برای داشتن تجربه بهتر ، برنامه Cusmato را بارگیری کنید یا از یک مرورگر پشتیبانی شده استفاده کنید."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -1285,7 +1285,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "شرایط خدمات GitLab به روز شده است. لطفاً برای پذیرش آنها به gitlab.com بروید و دوباره سعی کنید وارد Mattermost شوید."
+    "translation": "شرایط خدمات GitLab به روز شده است. لطفاً برای پذیرش آنها به gitlab.com بروید و دوباره سعی کنید وارد Cusmato شوید."
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",
@@ -1673,7 +1673,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "نام کاربری که قبلاً توسط کاربر Mattermost دیگری استفاده شده است."
+    "translation": "نام کاربری که قبلاً توسط کاربر Cusmato دیگری استفاده شده است."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -1805,7 +1805,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "جستجوی کاربران در AD/LDAP انجام نشد. اگر سرور Mattermost می تواند به سرور AD/LDAP شما متصل شود تست کنید و دوباره امتحان کنید."
+    "translation": "جستجوی کاربران در AD/LDAP انجام نشد. اگر سرور Cusmato می تواند به سرور AD/LDAP شما متصل شود تست کنید و دوباره امتحان کنید."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -1841,7 +1841,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "حساب AD/LDAP شما اجازه استفاده از این سرور Mattermost را ندارد. لطفاً از مدیر سیستم خود بخواهید فیلتر کاربر AD/LDAP را بررسی کند."
+    "translation": "حساب AD/LDAP شما اجازه استفاده از این سرور Cusmato را ندارد. لطفاً از مدیر سیستم خود بخواهید فیلتر کاربر AD/LDAP را بررسی کند."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -4305,7 +4305,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "وارد Mattermost شوید"
+    "translation": "وارد Cusmato شوید"
   },
   {
     "id": "app.notification.footer.info",
@@ -4537,15 +4537,15 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Mattermost در آن نصب شده است به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n بعد از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را به روز کنید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Cusmato {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Cusmato در آن نصب شده است به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\n بعد از تغییر مجوزهای فایل ، دوباره سعی کنید Cusmato را به روز کنید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Mattermost در آن نصب شده است ، به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n پس از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به خاطر داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Cusmato {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سروری که Cusmato در آن نصب شده است ، به روز کند: \n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\n پس از تغییر مجوزهای فایل ، دوباره سعی کنید Cusmato را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به خاطر داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Mattermost {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سرور محل نصب Mattermost به روز کند: \n\n```\nchmod +w \"{{.Path}}\"\n```\n\nپس از تغییر مجوزهای فایل ، دوباره سعی کنید Mattermost را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Mattermost قادر به ارتقا به نسخه تجاری نبود. کاربر سیستم Cusmato {{.MattermostUsername}} دسترسی نوشتاری به پرونده باینری لازم را ندارد. یک مدیر سیستم می تواند مجوزهای پرونده را با اجرای دستور زیر در سرور محل نصب Cusmato به روز کند: \n\n```\nchmod +w \"{{.Path}}\"\n```\n\nپس از تغییر مجوزهای فایل ، دوباره سعی کنید Cusmato را ارتقا دهید. هنگام به روزرسانی و راه اندازی مجدد ، به یاد داشته باشید که مجوزهای اصلی فایل باینری را بازیابی کنید:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "شما قبلاً به Mattermost نسخه تجاری ارتقا داده اید. لطفاً سرور را مجدداً راه اندازی کنید تا به روزرسانی پایان یابد."
+    "translation": "شما قبلاً به Cusmato نسخه تجاری ارتقا داده اید. لطفاً سرور را مجدداً راه اندازی کنید تا به روزرسانی پایان یابد."
   },
   {
     "id": "api.unmarshal_error",
@@ -4601,7 +4601,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Mattermost استفاده شده است."
+    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Cusmato استفاده شده است."
   },
   {
     "id": "api.templates.welcome_body.button",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Mattermost استفاده شده است."
+    "translation": "این آدرس ایمیل برای ایجاد یک حساب کاربری با Cusmato استفاده شده است."
   },
   {
     "id": "api.templates.verify_body.button",
@@ -4713,7 +4713,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "مجوز تجاری Mattermost غیرفعال شده است."
+    "translation": "مجوز تجاری Cusmato غیرفعال شده است."
   },
   {
     "id": "api.templates.remove_expired_license.body.title",
@@ -4765,11 +4765,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "اشتراک Mattermost شما آماده تمدید است"
+    "translation": "اشتراک Cusmato شما آماده تمدید است"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}، اشتراک شما قرار است تا {{.Days}} روز دیگر منقضی شود. ما امیدواریم که همکاری تیمی منعطف و امنی را که Mattermost فعال می‌کند، تجربه کرده باشید. به زودی تمدید کنید تا مطمئن شوید که تیم شما همچنان از این مزایا بهره مند خواهد شد."
+    "translation": "{{.UserName}}، اشتراک شما قرار است تا {{.Days}} روز دیگر منقضی شود. ما امیدواریم که همکاری تیمی منعطف و امنی را که Cusmato فعال می‌کند، تجربه کرده باشید. به زودی تمدید کنید تا مطمئن شوید که تیم شما همچنان از این مزایا بهره مند خواهد شد."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -4809,7 +4809,7 @@
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "شروع به همکاری با تیم خود در Mattermost کنید"
+    "translation": "شروع به همکاری با تیم خود در Cusmato کنید"
   },
   {
     "id": "api.templates.invite_body.button",
@@ -5885,7 +5885,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "درون ریزی گزارش Mattermost Slack\n"
+    "translation": "درون ریزی گزارش Cusmato Slack\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -5897,11 +5897,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "کاربر Slack با یک کاربر موجود Mattermost با نامه الکترونیکی منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد ، اما نتوانست کاربر را به تیم خود اضافه کند.\n"
+    "translation": "کاربر Slack با یک کاربر موجود Cusmato با نامه الکترونیکی منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد ، اما نتوانست کاربر را به تیم خود اضافه کند.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "کاربر Slack با یک کاربر موجود Mattermost با ایمیل منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد.\n"
+    "translation": "کاربر Slack با یک کاربر موجود Cusmato با ایمیل منطبق {{.Email}} و نام کاربری {{.Username}} ادغام شد.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.email_pwd",
@@ -5913,7 +5913,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "کانال Slack {{.DisplayName}} از قبل به عنوان یک کانال فعال Mattermost فعال است. هر دو کانال ادغام شده اند.\n"
+    "translation": "کانال Slack {{.DisplayName}} از قبل به عنوان یک کانال فعال Cusmato فعال است. هر دو کانال ادغام شده اند.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -6359,7 +6359,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "برای درخواست مجوز باید توافق نامه ارزیابی نرم افزار و سیاست حفظ حریم خصوصی Mattermost را بپذیرید."
+    "translation": "برای درخواست مجوز باید توافق نامه ارزیابی نرم افزار و سیاست حفظ حریم خصوصی Cusmato را بپذیرید."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -6535,7 +6535,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "برنامه Mattermost را دانلود کنید"
+    "translation": "برنامه Cusmato را دانلود کنید"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
@@ -7130,7 +7130,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "یک نمونه خارجی Mattermost را به کانال مشترک فعلی دعوت می کند"
+    "translation": "یک نمونه خارجی Cusmato را به کانال مشترک فعلی دعوت می کند"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -7154,7 +7154,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "کانال فعلی را با یک نمونه خارجی Mattermost به اشتراک می گذارد."
+    "translation": "کانال فعلی را با یک نمونه خارجی Cusmato به اشتراک می گذارد."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7877,7 +7877,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "برای تیم Mattermost خود از طریق ایمیل دعوت کنید"
+    "translation": "برای تیم Cusmato خود از طریق ایمیل دعوت کنید"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -8201,7 +8201,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "لطفاً مرا به تیم ها و کانال هایی اضافه کنید که می خواهید در آنها تعامل داشته باشم. برای این کار از مرورگر یا نرم افزار دستکاپ Mattermost استفاده کنید."
+    "translation": "لطفاً مرا به تیم ها و کانال هایی اضافه کنید که می خواهید در آنها تعامل داشته باشم. برای این کار از مرورگر یا نرم افزار دستکاپ Cusmato استفاده کنید."
   },
   {
     "id": "api.bot.create_disabled",
@@ -8249,7 +8249,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "به نظر می رسد ایمیل Mattermost شما به درستی تنظیم شده است!"
+    "translation": "به نظر می رسد ایمیل Cusmato شما به درستی تنظیم شده است!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -8397,7 +8397,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "دعوتنامه رمزگذاری شده AES 256 بیتی زیر را به همراه رمز عبور به مدیر سیستم خارجی Mattermost ارسال کنید. آنها از دستور اسلش `{{.Command}}` برای پذیرش دعوت استفاده خواهند کرد.\n\n```\n{{.Invitation}}\n```\n\n**مطمئن شوید که اتصال ایمن می تواند به نمونه Mattermost شما از طریق ** {{.SiteURL}} دسترسی داشته باشد."
+    "translation": "دعوتنامه رمزگذاری شده AES 256 بیتی زیر را به همراه رمز عبور به مدیر سیستم خارجی Cusmato ارسال کنید. آنها از دستور اسلش `{{.Command}}` برای پذیرش دعوت استفاده خواهند کرد.\n\n```\n{{.Invitation}}\n```\n\n**مطمئن شوید که اتصال ایمن می تواند به نمونه Cusmato شما از طریق ** {{.SiteURL}} دسترسی داشته باشد."
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -8449,7 +8449,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "از اتصالات امن برای ارتباط در سراسر موارد Mattermost دعوت کنید."
+    "translation": "از اتصالات امن برای ارتباط در سراسر موارد Cusmato دعوت کنید."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -8473,7 +8473,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "دعوت از یک نمونه خارجی Mattermost را بپذیرید"
+    "translation": "دعوت از یک نمونه خارجی Cusmato را بپذیرید"
   },
   {
     "id": "api.command_open.name",

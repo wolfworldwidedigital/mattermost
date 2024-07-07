@@ -66,7 +66,7 @@ context('Okta', () => {
 
     let testSettings;
 
-    //Note: the assumption is that this test suite runs on a clean setup (empty DB) which would ensure that the users are not present in the Mattermost instance beforehand
+    //Note: the assumption is that this test suite runs on a clean setup (empty DB) which would ensure that the users are not present in the Cusmato instance beforehand
     describe('SAML Login flow', () => {
         before(() => {
             // * Check if server has license for SAML

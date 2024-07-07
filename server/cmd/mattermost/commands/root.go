@@ -33,6 +33,6 @@ func init() {
 // checkForRootUser logs a warning if the process is running as root
 func checkForRootUser() {
 	if os.Geteuid() == 0 {
-		mlog.Warn("Running Mattermost as root is not recommended. Please use a non-root user.")
+		mlog.Warn("Running Cusmato as root is not recommended. Please use a non-root user.")
 	}
 }
